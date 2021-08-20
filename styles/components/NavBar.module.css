@@ -1,0 +1,14 @@
+.text-red {
+    color: rgba(220, 38, 38, 1) !important;
+}
+
+.logo {
+    float: left;
+    width: 120px;
+    margin: 10px 24px 16px 0;
+}
+
+.logoImg {
+    width: 45px;
+    height: 45px;
+}

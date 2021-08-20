@@ -1,0 +1,10 @@
+.fs-xxl {
+    font-size: xx-large;
+}
+
+.flex-item-60 {
+    flex: 0 0 60%;
+    padding: 10px
+}
+
+
