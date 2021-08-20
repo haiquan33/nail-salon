@@ -1,0 +1,42 @@
+{
+  "NAV_BAR_ITEMS": [
+    "HOME",
+    "ABOUT",
+    "SERVICES",
+    "GALLERY",
+    "GIFT CARD",
+    "FAQ",
+    "REVIEW",
+    "CONTACT"
+  ],
+  "SALON_MENU_IMAGES": [
+    {
+      "title": "WAXING",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Queen-Nails-Waxing-100-1-300x300.jpg.webp"
+    },
+    {
+      "title": "PEDICURE",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Trend-1000-300x300.jpeg.webp"
+    },
+    {
+      "title": "NAIL ENHANCEMENT",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollies-Nails78-300x300.jpg.webp"
+    },
+    {
+      "title": "MANICURE",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollies-Nails106-300x300.jpg.webp"
+    },
+    {
+      "title": "ADDITIONAL SERVICES",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollie-Nails-Ads-35-300x300.jpeg.webp"
+    },
+    {
+      "title": "KIDS MENU",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Kid-Nails-1-300x300.jpg.webp"
+    },
+    {
+      "title": "GEL POLISH",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollies-Nails102-300x300.jpg.webp"
+    }
+  ]
+}
