@@ -1,3 +1,10 @@
+.inner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .slick-dots li:before {
     content: '';
     display: block;

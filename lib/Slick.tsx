@@ -1,18 +1,22 @@
 import Slider, { Settings } from '@ant-design/react-slick';
+import { ISlickData } from 'types';
 
-interface ISalonMenu {
-    title: string;
-    img: string;
+interface ISlickProps {
+    data: ISlickData[];
+    settings?: Settings;
+    elementStyle?: string;
 }
 
-export const Slick = ({ data }: { data: ISalonMenu[] }) => {
-    const items: ISalonMenu[] = data;
-    const settings: Settings = {
+export const Slick = (
+    { data, settings = {}, elementStyle = 'mx-auto ' }: ISlickProps
+) => {
+    const items: ISlickData[] = data;
+
+    const defaultSettings: Settings = {
         dots: true,
-        infinite: false,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 2,
         initialSlide: 0,
         responsive: [
             {
@@ -42,14 +46,20 @@ export const Slick = ({ data }: { data: ISalonMenu[] }) => {
         ],
         arrows: false,
     };
+
+    const sliderSettings: Settings = { ...defaultSettings, ...settings };
+
     const sliderItem = items.map((item, index) => {
-        return <div key={ index + 1 } className="p-2">
-            <img src={ item.img } alt={ item.title }/>
-            <h2 className="text-red-600 mt-2">{ item.title }</h2>
+        return <div key={ index + 1 } className="px-4">
+            <div className="inner bg-white p-0.5">
+                <img src={ item.img } alt={ item.title } className={ elementStyle }/>
+            </div>
+
+            <h2 className="text-lg text-red-600 mt-2">{ item.title }</h2>
         </div>;
     });
 
-    return <Slider { ...settings }>
+    return <Slider { ...sliderSettings }>
         { sliderItem }
     </Slider>;
 };

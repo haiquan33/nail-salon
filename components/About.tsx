@@ -1,8 +1,7 @@
-import React from 'react';
 import styles from 'styles/components/About.module.css';
 
 export const About = (props: any) => {
-    const aboutUs = `
+    const aboutContent = `
         Nails Kute & Spa memorable spa time in Fleming Island, Florida. Our peaceful and
         welcoming setting makes sure that you can enjoy relaxing moments while getting your
         favorite nail services done. Our highly-qualified nail technicians will ensure that
@@ -14,38 +13,36 @@ export const About = (props: any) => {
         Kute & Spa. Hurry up! Make your appointment now.
     `;
 
-    return <section id="about" className="py-5 py-sm-8 py-lg-10 bg-red-700">
+    return <section id="about" className="py-5 py-sm-8 py-lg-10 bg-red">
         <div className="container">
             <h1 className="text-center text-white mb-6 mb-lg-10 font-lobster section-head">
                 A Salon with a Touch of Luxury
             </h1>
 
             <div className="flex items-center justify-center">
-                <div className={ styles['flex-item-60'] }>
+                <div className={ styles['flex-item-50'] }>
                     <img
                         src="https://vnailweb.com/wp-content/uploads/2020/11/kute.jpg"
                         alt="..."
                     />
                 </div>
 
-                <div className={ styles['flex-item-60'] }>
+                <div className={ `${ styles['flex-item-50'] } ml-8` }>
                     <h3 className={ `
                         text-white
                         text-center
                         mb-3
-                        mb-sm-6 
-                        mx-auto 
-                        d-none 
-                        d-md-block 
-                        font-lobster 
-                        ${ styles['fs-xxl'] }
+                        md:mb-6
+                        mx-auto
+                        font-lobster
+                        text-4xl
                     ` }
                     >
                         About Us
                     </h3>
 
-                    <div className="intro_desc lh-16 text-white content-text mb-2">
-                        <p>{ aboutUs }</p>
+                    <div className="text-white mb-2 lg:leading-7">
+                        <p className="">{ aboutContent }</p>
                     </div>
                 </div>
             </div>

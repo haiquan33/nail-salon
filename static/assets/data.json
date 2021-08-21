@@ -38,5 +38,71 @@
       "title": "GEL POLISH",
       "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollies-Nails102-300x300.jpg.webp"
     }
+  ],
+  "FEATURED_PRODUCTS": [
+    {
+      "title": "Gel Manicure",
+      "price": "30",
+      "type": "Pedicure",
+      "description": "Enjoy our Gel Manicure with a relaxing atmosphere at Nails Kute & Spa",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollie-Nails-Ads-25-300x300.jpeg.webp"
+    },
+    {
+      "title": "Dip Color",
+      "price": "40",
+      "type": "Nail Enhancement",
+      "description": "Dipping Powder is a nail dipping system that uses a brush-on gel base on the natural nail followed by dipping...",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-33-300x300.jpeg.webp"
+    },
+    {
+      "title": "Design (per nail)",
+      "price": "3",
+      "type": "Additional Services",
+      "description": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/7-2-300x300.jpg.webp"
+    },
+    {
+      "title": "Full Set Pink & White",
+      "price": "45",
+      "type": "Nail Enhancement",
+      "description": "Classic Nail Enhancement Services",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/68-300x300.png.webp"
+    },
+    {
+      "title": "Luxury Pedicure",
+      "price": "65",
+      "type": "Pedicure",
+      "description": "Scent options from Voesh Pedi-in-a-box Luxury 4-in-1 Kit: Mango- Jasmine- Tangerine Twist- Charcoal- Green Tea- Lavender- Lemon- Cucumber Introducing Voesh...",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/03/Deluxe-Pedicure-Manicure-3-300x300.jpeg.webp"
+    },
+    {
+      "title": "Deluxe Pedicure",
+      "price": "45",
+      "type": "Pedicure",
+      "description": "The Deluxe Pedicure includes the shaping of your nails and cuticle and callus removal. A refreshing and exfoliating OPI sugar...",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Trend-2.jpg.webp"
+    }
+  ],
+  "BRANDS": [
+    {
+      "title": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/Logo-01-300x300.jpg.webp"
+    },
+    {
+      "title": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/Logo-02-300x300.jpg.webp"
+    },
+    {
+      "title": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/Logo-03-300x300.jpg.webp"
+    },
+    {
+      "title": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/Logo-04-300x300.jpg.webp"
+    },
+    {
+      "title": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/Logo-05-300x300.jpg.webp"
+    }
   ]
 }
