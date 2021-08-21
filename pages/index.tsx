@@ -1,28 +1,34 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import React from 'react';
-import { About, Banner, Menu, NavBar } from 'components';
+import { About, Banner, Brand, FeatureService, Menu, NavBar } from 'components';
 
 const Home: NextPage = () => {
     return (
         <div className="">
             <Head>
-                <title>Create Next App</title>
+                <title>Nails Kute & Spa of Fleming Island FL 32003 - Best Nail Salon Near Me</title>
                 <link rel="icon" href="/favicon.ico"/>
                 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"/>
             </Head>
 
-            {/*Nav bar section*/ }
+            {/* Nav bar section*/ }
             <NavBar/>
 
-            {/*Banner section*/ }
+            {/* Banner section*/ }
             <Banner/>
 
-            {/*About us section*/ }
+            {/* About us section*/ }
             <About/>
 
-            {/*Salon Menu section*/ }
+            {/* Salon Menu section*/ }
             <Menu/>
+
+            {/* Feature products section*/ }
+            <FeatureService/>
+
+            {/* Feature products section*/ }
+            <Brand/>
         </div>
     );
 }
