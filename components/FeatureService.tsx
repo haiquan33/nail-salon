@@ -1,5 +1,5 @@
 import { DollarOutlined } from '@ant-design/icons';
-import { Badge, Tag } from 'antd';
+import { Badge } from 'antd';
 import { IFeatureProduct } from 'types';
 import staticData from 'static/assets/data.json';
 import styles from 'styles/components/FeatureService.module.css';
@@ -13,7 +13,7 @@ export const FeatureService = (props: any) => {
                     {/* Thumbnail */ }
                     <div className="mr-sm-2 md:mr-0 lg:mr-2">
                         <div className={ styles.thumb }>
-                            <img width="200" height="200" src={ prod.img } alt="..."/>
+                            <img src={ prod.img } alt="..." className={ styles.img }/>
                         </div>
                     </div>
 
@@ -46,7 +46,7 @@ export const FeatureService = (props: any) => {
                 Most Wanted Services
             </h4>
 
-            <div className="grid lg:grid-cols-2 gap-4">
+            <div className="grid lg:grid-cols-2 gap-4 lg:mx-24">
                 { product }
             </div>
         </div>

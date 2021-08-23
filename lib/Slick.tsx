@@ -16,11 +16,11 @@ export const Slick = (
         dots: true,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 4,
@@ -29,7 +29,7 @@ export const Slick = (
                 },
             },
             {
-                breakpoint: 600,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
@@ -51,7 +51,7 @@ export const Slick = (
 
     const sliderItem = items.map((item, index) => {
         return <div key={ index + 1 } className="px-4">
-            <div className="inner bg-white p-0.5">
+            <div className="mx-auto p-0.5">
                 <img src={ item.img } alt={ item.title } className={ elementStyle }/>
             </div>
 

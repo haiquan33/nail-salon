@@ -13,4 +13,4 @@ export const Banner = (props: any) => {
                 alt="Vendor Banner"/>
         </picture>
     </section>
-}
+};

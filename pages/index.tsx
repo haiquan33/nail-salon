@@ -1,7 +1,8 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import React from 'react';
-import { About, Banner, Brand, FeatureService, Menu, NavBar } from 'components';
+import { About, Banner, Brand, FAQ, FeatureService, Gallery, GiftCard, Menu, Message, NavBar } from 'components';
+import { Review } from '../components/Review';
 
 const Home: NextPage = () => {
     return (
@@ -12,23 +13,38 @@ const Home: NextPage = () => {
                 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"/>
             </Head>
 
-            {/* Nav bar section*/ }
+            {/* Nav bar section */ }
             <NavBar/>
 
-            {/* Banner section*/ }
+            {/* Banner section */ }
             <Banner/>
 
-            {/* About us section*/ }
+            {/* About us section */ }
             <About/>
 
-            {/* Salon Menu section*/ }
+            {/* Salon Menu section */ }
             <Menu/>
 
-            {/* Feature products section*/ }
+            {/* Feature products section */ }
             <FeatureService/>
 
-            {/* Feature products section*/ }
+            {/* Brand */ }
             <Brand/>
+
+            {/* Gallery */ }
+            <Gallery/>
+
+            {/* GiftCard */ }
+            <GiftCard/>
+
+            {/* FAQ */ }
+            <FAQ/>
+
+            {/* Message */ }
+            <Message/>
+
+            {/* Review */ }
+            <Review/>
         </div>
     );
 }

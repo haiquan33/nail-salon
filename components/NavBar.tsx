@@ -8,8 +8,10 @@ export const NavBar = (props: any) => {
     const nav_items: string[] = staticData.NAV_BAR_ITEMS;
     const menu_item = nav_items.map((item, index) => {
         const key = index + 1;
+        const href = `#${ item.toLowerCase().replace(' ', '_') }`;
+
         return <Menu.Item key={ key } className="">
-            <a href={ `#${ item.toLowerCase() }` } className={ styles['text-red'] }>
+            <a href={ href } className={ styles['text-red'] }>
                 { item }
             </a>
         </Menu.Item>;

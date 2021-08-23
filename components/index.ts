@@ -4,3 +4,7 @@ export * from './About';
 export * from './Menu';
 export * from './FeatureService';
 export * from './Brand';
+export * from './Gallery';
+export * from './GiftCard';
+export * from './FAQ';
+export * from './Message';
