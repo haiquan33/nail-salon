@@ -1,7 +1,19 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import React from 'react';
-import { About, Banner, Brand, FAQ, FeatureService, Gallery, GiftCard, Menu, Message, NavBar } from 'components';
+import {
+    About,
+    Banner,
+    Brand,
+    FAQ,
+    FeatureService,
+    Footer,
+    Gallery,
+    GiftCard,
+    Menu,
+    Message,
+    NavBar
+} from 'components';
 import { Review } from '../components/Review';
 
 const Home: NextPage = () => {
@@ -45,6 +57,9 @@ const Home: NextPage = () => {
 
             {/* Review */ }
             <Review/>
+
+            {/* Footer */ }
+            <Footer/>
         </div>
     );
 }

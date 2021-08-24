@@ -8,3 +8,4 @@ export * from './Gallery';
 export * from './GiftCard';
 export * from './FAQ';
 export * from './Message';
+export * from './Footer';
