@@ -10,7 +10,7 @@ export const NavBar = (props: any) => {
         const key = index + 1;
         const href = `#${ item.toLowerCase().replace(' ', '_') }`;
 
-        return <Menu.Item key={ key } className="">
+        return <Menu.Item key={ key }>
             <a href={ href } className={ styles['text-red'] }>
                 { item }
             </a>
@@ -29,7 +29,12 @@ export const NavBar = (props: any) => {
             </a>
         </div>
 
-        <Menu className="float-right" theme="dark" mode="horizontal" defaultSelectedKeys={ ['1'] }>
+        <Menu
+            className="float-right pr-5"
+            theme="dark"
+            mode="horizontal"
+            defaultSelectedKeys={ ['1'] }
+        >
             { menu_item }
         </Menu>
     </AntdHeader>;
