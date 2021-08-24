@@ -68,6 +68,10 @@ a {
     border: 2px solid #fff;
 }
 
+.anticon svg {
+    border-radius: 10px
+}
+
 .robo_head {
     font-size: 1.5em;
 }
