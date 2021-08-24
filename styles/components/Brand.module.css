@@ -1,0 +1,14 @@
+@media (min-width: 1024px) {
+    .brand-logo {
+        min-width: 170px;
+        min-height: 170px;
+    }
+}
+
+@media (min-width: 768px) {
+    .brand-logo {
+        min-width: 120px;
+        min-height: 120px;
+    }
+}
+

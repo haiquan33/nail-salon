@@ -1,0 +1,19 @@
+.inner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots li:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.slick-dots .slick-active:before {
+    background: #fff;
+}
