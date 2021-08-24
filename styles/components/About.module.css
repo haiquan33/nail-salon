@@ -1,0 +1,10 @@
+.fs-ch-2 {
+    font-size: 2ch;
+}
+
+.flex-item-50 {
+    flex: 0 0 50%;
+    padding: 10px
+}
+
+

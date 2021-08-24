@@ -1,0 +1,37 @@
+.text-shadow {
+    text-shadow: 1px 1px #333;
+}
+
+.model {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    max-width: 100%;
+    max-height: 360px;
+}
+
+.icon-sms-svg {
+    width: 45px;
+}
+
+.icon-sms-svg path {
+    fill: #fff;
+}
+
+.sms-wrap {
+    background: url('public/images/bg-sms.png') no-repeat center;
+    background-size: cover;
+}
+
+.sms-wrap a {
+    width: 80px;
+    height: 80px;
+    font-size: 2.68em;
+}
+
+@media (min-width: 992px) {
+    .sms-wrap {
+        min-height: 360px;
+    }
+}
