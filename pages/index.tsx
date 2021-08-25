@@ -4,6 +4,7 @@ import React from 'react';
 import {
     About,
     Banner,
+    Booking,
     Brand,
     FAQ,
     FeatureService,
@@ -61,6 +62,9 @@ const Home: NextPage = () => {
 
             {/* Footer */ }
             <Footer/>
+
+            {/* Booking */ }
+            <Booking/>
         </div>
     );
 }

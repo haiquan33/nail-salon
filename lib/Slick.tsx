@@ -14,6 +14,7 @@ export const Slick = (
 
     const defaultSettings: Settings = {
         className: 'mb-4',
+        autoplay: true,
         dots: true,
         speed: 500,
         slidesToShow: 4,
