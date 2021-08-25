@@ -1,14 +1,22 @@
-import { Avatar, Comment, Rate } from 'antd';
 import { IComment } from 'types';
+import { PageHeader } from 'shared';
+import { Avatar, Comment, Rate } from 'antd';
 import staticData from 'static/assets/data.json';
 
 export const Review = (props: any) => {
+    const title = 'Reviews';
     const comments: IComment[] = staticData.COMMENTS;
     const item = comments.map((comment, index) => {
         return <Comment
             key={ index + 1 }
-            className="m-10 border-b border-black"
-            avatar={ <Avatar src={ comment.avatar } alt={ comment.name } size={ 80 }/> }
+            className="sm:m-10 border-b border-black"
+            avatar={
+                <Avatar
+                    src={ comment.avatar }
+                    alt={ comment.name }
+                    className="w-10 h-10 sm:w-20 sm:h-20"
+                />
+            }
             author={
                 <div className="flex justify-between mb-4">
                     <a className="flex flex-col text-white text-lg">
@@ -24,17 +32,14 @@ export const Review = (props: any) => {
 
     return <section id="reviews" className="py-5 sm:py-8 lg:py-10">
         <div className="container">
-            <h4 className="text-center text-white font-lobster section-head mb-6 lg:mb-10">
-                Reviews
-            </h4>
+            <PageHeader text={ title }/>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="sm:grid grid-cols-2 gap-4 mb-4">
                 { item }
             </div>
 
             <div className="flex justify-center">
-                <a href="#"
-                   className="hidden sm:block hover:text-white hover:underline text-lg underline font-light">
+                <a className="block hover:text-white hover:underline sm:text-lg underline font-light">
                     Show More
                 </a>
             </div>

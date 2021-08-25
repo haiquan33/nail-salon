@@ -3,6 +3,7 @@ import Gallery from 'react-grid-gallery';
 import { IWorkPagination } from 'types';
 import { CSSProperties } from 'react';
 import { ImageOptions } from 'gallery';
+import { matchScreen, MIN_WIDTH_640 } from 'utils';
 
 export const GridGallery = ({ data }: { data: IWorkPagination[] }) => {
     const IMAGES = data.find(item => item.page === 1)?.works.map(item => (
@@ -14,16 +15,36 @@ export const GridGallery = ({ data }: { data: IWorkPagination[] }) => {
         }
     )) as unknown as ImageOptions[];
 
-    const tileViewportStyle = () => ({
-        width: '270px',
-        height: '270px',
-        margin: 'auto'
-    } as CSSProperties);
+    const tileViewportStyle = () => {
+        if (matchScreen(MIN_WIDTH_640)) {
+            return {
+                width: '270px',
+                height: '270px',
+                margin: 'auto'
+            } as CSSProperties;
+        }
 
-    const thumbnailStyle = () => ({
-        width: '250px',
-        height: '250px',
-    } as CSSProperties);
+        return {
+            width: '110px',
+            height: '110px',
+            margin: 'auto'
+        } as CSSProperties
+    };
+
+    const thumbnailStyle = () => {
+        if (matchScreen(MIN_WIDTH_640)) {
+            return {
+                width: '250px',
+                height: '250px',
+            } as CSSProperties;
+        }
+
+        return {
+            width: '110px',
+            height: '110px',
+            margin: 'auto'
+        } as CSSProperties
+    };
 
     return <Gallery
         images={ IMAGES }
