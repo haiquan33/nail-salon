@@ -1,0 +1,11 @@
+.desc {
+    max-width: 500px;
+}
+
+.buy-gift-btn {
+    display: inline-flex;
+    justify-content: center;
+    min-width: 180px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px 0 #999;
+}

@@ -1,0 +1,368 @@
+{
+  "NAV_BAR_ITEMS": [
+    "HOME",
+    "ABOUT",
+    "SERVICES",
+    "GALLERY",
+    "GIFT CARD",
+    "FAQ",
+    "REVIEW",
+    "CONTACT"
+  ],
+  "SALON_MENU_IMAGES": [
+    {
+      "title": "WAXING",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Queen-Nails-Waxing-100-1-300x300.jpg.webp"
+    },
+    {
+      "title": "PEDICURE",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Trend-1000-300x300.jpeg.webp"
+    },
+    {
+      "title": "NAIL ENHANCEMENT",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollies-Nails78-300x300.jpg.webp"
+    },
+    {
+      "title": "MANICURE",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollies-Nails106-300x300.jpg.webp"
+    },
+    {
+      "title": "ADDITIONAL SERVICES",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollie-Nails-Ads-35-300x300.jpeg.webp"
+    },
+    {
+      "title": "KIDS MENU",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Kid-Nails-1-300x300.jpg.webp"
+    },
+    {
+      "title": "GEL POLISH",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollies-Nails102-300x300.jpg.webp"
+    }
+  ],
+  "FEATURED_PRODUCTS": [
+    {
+      "title": "Gel Manicure",
+      "price": "30",
+      "type": "Pedicure",
+      "description": "Enjoy our Gel Manicure with a relaxing atmosphere at Nails Kute & Spa",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollie-Nails-Ads-25-300x300.jpeg.webp"
+    },
+    {
+      "title": "Dip Color",
+      "price": "40",
+      "type": "Nail Enhancement",
+      "description": "Dipping Powder is a nail dipping system that uses a brush-on gel base on the natural nail followed by dipping...",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-33-300x300.jpeg.webp"
+    },
+    {
+      "title": "Design (per nail)",
+      "price": "3",
+      "type": "Additional Services",
+      "description": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/7-2-300x300.jpg.webp"
+    },
+    {
+      "title": "Full Set Pink & White",
+      "price": "45",
+      "type": "Nail Enhancement",
+      "description": "Classic Nail Enhancement Services",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/68-300x300.png.webp"
+    },
+    {
+      "title": "Luxury Pedicure",
+      "price": "65",
+      "type": "Pedicure",
+      "description": "Scent options from Voesh Pedi-in-a-box Luxury 4-in-1 Kit: Mango- Jasmine- Tangerine Twist- Charcoal- Green Tea- Lavender- Lemon- Cucumber Introducing Voesh...",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/03/Deluxe-Pedicure-Manicure-3-300x300.jpeg.webp"
+    },
+    {
+      "title": "Deluxe Pedicure",
+      "price": "45",
+      "type": "Pedicure",
+      "description": "The Deluxe Pedicure includes the shaping of your nails and cuticle and callus removal. A refreshing and exfoliating OPI sugar...",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Trend-2.jpg.webp"
+    }
+  ],
+  "BRANDS": [
+    {
+      "title": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/Logo-01-300x300.jpg.webp"
+    },
+    {
+      "title": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/Logo-02-300x300.jpg.webp"
+    },
+    {
+      "title": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/Logo-03-300x300.jpg.webp"
+    },
+    {
+      "title": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/Logo-04-300x300.jpg.webp"
+    },
+    {
+      "title": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2020/11/Logo-05-300x300.jpg.webp"
+    }
+  ],
+  "PREVIOUS_WORKS": [
+    {
+      "works": [
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-01-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-23-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-8-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-3-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-6-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-21-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-12-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-18-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-17-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-15-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-14-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-36-300x300.jpeg.webp"
+      ],
+      "page": 1,
+      "per_page": 12,
+      "total": 121
+    },
+    {
+      "works": [
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-25-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-27-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-6-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-10-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-9-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-26-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-19-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-4-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-47-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-40-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-37-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-3-300x300.jpeg.webp"
+      ],
+      "page": 2,
+      "per_page": 12,
+      "total": 121
+    },
+    {
+      "works": [
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-20-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/03/Organic-Firewalker-Pedicure-with-Gel-Polish-1-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Services-1-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/03/Pedicure-Trend-23-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/02/Pedicure-Broadmoore-Nails-1-1-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/11/5-3-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0609-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0608-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0881-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/11/7-2-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-13-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/11/3-2-300x300.jpg.webp"
+      ],
+      "page": 3,
+      "per_page": 12,
+      "total": 121
+    },
+    {
+      "works": [
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0898-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/11/1-1-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/11/2-4-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0215-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0880-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0882-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0884-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0885-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0886-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0887-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0890-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0891-300x300.jpg.webp"
+      ],
+      "page": 4,
+      "per_page": 12,
+      "total": 121
+    },
+    {
+      "works": [
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0894-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0896-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0899-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/04/Queen-Nails-Pedicure-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Queen-Nails-55-1-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/04/Deluxe-Pedicure-300x300-2.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/04/Deluxe-Pedicure-300x300-2.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Trend-1-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Trend-3-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/03/Regular-Pedicure-Manicure-1-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/03/UltimatePedicure-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/02/Pedicure-10-1-300x300.jpg.webp"
+      ],
+      "page": 5,
+      "per_page": 12,
+      "total": 121
+    },
+    {
+      "works": [
+        "https://vnailweb.com/wp-content/uploads/2021/02/Pedicure-Broadmoore-Nails-1-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-60-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nail-Kute-Spa-1-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-49-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-48-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-46-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-45-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-44-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-42-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-41-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-39-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-38-300x300.jpeg.webp"
+      ],
+      "page": 6,
+      "per_page": 12,
+      "total": 121
+    },
+    {
+      "works": [
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-35-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-33-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-30-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-29-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-23-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-8-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-5-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-2-300x300.jpeg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-02-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-03-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-04-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-05-300x300.jpg"
+      ],
+      "page": 7,
+      "per_page": 12,
+      "total": 121
+    },
+    {
+      "works": [
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-06-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-07-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-08-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-10-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-11-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-13-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-14-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-15-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-11-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-13-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-14-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-15-300x300.jpg"
+      ],
+      "page": 8,
+      "per_page": 12,
+      "total": 121
+    },
+    {
+      "works": [
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-17-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-16-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-18-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-19-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-20-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-22-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-24-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Take-off-pedicure-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Combo-Manicure-Pedicure-1-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/05/Pedicure-Smooth-1007-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/05/Pedicure-Beauty-Nails-Spa-8-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/05/Pedicure-Beauty-Nails-Spa-7-300x300.jpg.webp"
+      ],
+      "page": 9,
+      "per_page": 12,
+      "total": 121
+    },
+    {
+      "works": [
+        "https://vnailweb.com/wp-content/uploads/2021/05/Pedicure-Beauty-Nails-Spa-2-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-18-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-17-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-16-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-15-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-14-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-13-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-12-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-11-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-9-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-7--300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-5-300x300.jpeg"
+      ],
+      "page": 10,
+      "per_page": 12,
+      "total": 121
+    },
+    {
+      "works": [
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-4-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-2-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Manicure-Pedicure-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Chocolate-Pedicure-2-1-300x300.png",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Hollywood-Pedicure--300x300.jpeg"
+      ],
+      "page": 11,
+      "per_page": 5,
+      "total": 121
+    }
+  ],
+  "FAQS": [
+    {
+      "question": "How is Gel Polish or Shellac Polish Removed?",
+      "answer": "Gel polish is very difficult to remove with standard nail polish remover and if you peel it off it can damage your nails so it is always advisable to book in for professional take off at …Nails This involves gentle hand filing, an acetone soak for a few minutes. Your Trieu Nails Technician will then use tools to remove the last of the polish and neaten up your nails ready to go!"
+    },
+    {
+      "question": "How Long Does Normal Polish Take to Dry?",
+      "answer": "When you have a classical manicure at Trieu Nails London, your technician will leave your polish to dry for about 5 minutes before applying a quick-dry spray, which accelerates the drying process. They will then check to see if your manicure still needs drying – it is you’ll have to sit back just a little longer to avoid smudges! In total, around 10-15 minutes after the last topcoat, your manicure should be touch dry and good to go. Just try to avoid knocking it (easily done by rummaging in your bag!) for about an hour until the polish has fully cured through all the coats."
+    },
+    {
+      "question": "What is The Overlay?",
+      "answer": "This is when either acrylic or gel is applied over the natural nail without the need of a nail extension. Ideal for those who want just some slight length and thicker nails."
+    },
+    {
+      "question": "How Do I Care for My Nails After My Manicure?",
+      "answer": "We advises a number of ways on how to care for your manicured nails. To keep a manicure lasting to its full potential avoid getting your nails wet for too long (constant soaking in hot baths or not wearing rubber gloves when washing the dishes) and also avoid coming into contact for prolonged periods with chemicals like those in sunscreen, perfumed products and insect repellent. Get someone else to do the DIY or tough chores that might cause your manicure to lift, and apply cuticle oil morning and night if you can. This will keep your nails super healthy throughout the duration of your manicure and it will help keep the polish intact. Finally, don’t pick at your manicure under any circumstances. Instead Book in for a Nail repair if one or nails have damaged otherwise treat yourself to another treatment."
+    },
+    {
+      "question": "How Long Does Standard Polish Last for?",
+      "answer": "Standard nail polish usually lasts up to 5 days and is a great choice for temporary or short one off occasions. If that’s what you’re looking for then we recommend booking a classical manicure. It does take a fair few minutes to dry fully to avoid smudges on your manicure. If that’s too short of period for you then we recommend booking a shellac (gel) manicure at Nails Kute & Spa which is designed to last up to two weeks!"
+    },
+    {
+      "question": "What’s the Difference Between Acrylic, Gel Powder and UV Gel Nails?",
+      "answer": "For Acrylic nails the strong resin made of a powder and a liquid mixed together. It’s very hard wearing and we recommend it to people that bite their nails or use their hands a lot. For Gel Powder Nails the resin is a lot like acrylic and the composition is very similar. However, the finish is more clear compared to acrylic nails and its slight better quality. We’d recommend this to anyone going for a pale/nude colour on their manicured nails. UV Gel nails on the other hand is a hard gel that will allow you to make your nails longer without damaging your nail bed too much. It’s more flexible than acrylic and gel powder and not as hard wearing but it feels lighter on your hands. This needs to be cured by UV light, hence the name."
+    },
+    {
+      "question": "How to book an appointment online?",
+      "answer": "Book your appointment by sending a notice to the salon manager’s email. Please mention your name, phone number, and the service(s) required. We will respond to you and confirm your appointment."
+    }
+  ],
+  "COMMENTS": [
+    {
+      "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Charlotte-Patin--300x300.jpeg.webp",
+      "name": "Charlotte Patin",
+      "social": "Facebook",
+      "content": "Amazing staff! So thorough and kind. Most relaxing experience of any place around"
+    },
+    {
+      "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Latanya-P..jpeg.webp",
+      "name": "Latanya P.",
+      "social": "Yelp",
+      "content": "My daughter’s and I go here. It is very clean, family friendly. They are up to date with the latest trends in nail colors and art."
+    },
+    {
+      "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Amy-Lanfersiek-Green-300x300.jpg.webp",
+      "name": "Connie",
+      "social": "Facebook",
+      "content": "Am in ❤️ with my new St Paddy’s Day nails. Was accommodated very last minute. Very detail oriented yet fast. Jenny is the best. 🍀"
+    },
+    {
+      "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Heather-Weldon-1.png.webp",
+      "name": "Heather Weldon",
+      "social": "Google",
+      "content": "I absolutely love and recommend Nails Kute and Spa. Very clean, professional, and they always go above and beyond to make you feel welcome and appreciated. Excellent quality and the prices are great."
+    }
+  ]
+}
