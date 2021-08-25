@@ -10,3 +10,4 @@ export * from './faq';
 export * from './message';
 export * from './review';
 export * from './footer';
+export * from './booking';
