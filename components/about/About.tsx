@@ -1,7 +1,9 @@
+import { PageHeader } from 'shared/components';
 import styles from 'styles/components/About.module.css';
 
 export const About = (props: any) => {
-    const aboutContent = `
+    const title = 'A Salon with a Touch of Luxury';
+    const content = `
         Nails Kute & Spa memorable spa time in Fleming Island, Florida. Our peaceful and
         welcoming setting makes sure that you can enjoy relaxing moments while getting your
         favorite nail services done. Our highly-qualified nail technicians will ensure that
@@ -13,36 +15,23 @@ export const About = (props: any) => {
         Kute & Spa. Hurry up! Make your appointment now.
     `;
 
-    return <section id="about" className="py-5 py-sm-8 py-lg-10 bg-red">
+    return <section id="about" className="py-5 sm:py-8 lg:py-10 bg-red">
         <div className="container">
-            <h1 className="text-center text-white mb-6 mb-lg-10 font-lobster section-head">
-                A Salon with a Touch of Luxury
-            </h1>
+            <PageHeader text={ title }/>
 
-            <div className="flex items-center justify-center">
-                <div className={ styles['flex-item-50'] }>
-                    <img
-                        src="https://vnailweb.com/wp-content/uploads/2020/11/kute.jpg"
-                        alt="..."
-                    />
+            <div className="sm:flex items-center justify-center">
+                <div className={ styles['flex-item'] }>
+                    <img src="https://vnailweb.com/wp-content/uploads/2020/11/kute.jpg" alt="..."/>
                 </div>
 
-                <div className={ `${ styles['flex-item-50'] } ml-8` }>
-                    <h3 className={ `
-                        text-white
-                        text-center
-                        mb-3
-                        md:mb-6
-                        mx-auto
-                        font-lobster
-                        text-4xl
-                    ` }
+                <div className={ `${ styles['flex-item'] } sm:ml-8` }>
+                    <h3 className="text-white text-center text-4xl font-lobster mx-auto mb-3 md:mb-6"
                     >
                         About Us
                     </h3>
 
                     <div className="text-white mb-2 lg:leading-7">
-                        <p className="">{ aboutContent }</p>
+                        <p className="">{ content }</p>
                     </div>
                 </div>
             </div>

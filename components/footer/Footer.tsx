@@ -43,7 +43,7 @@ export const Footer = (props: any) => {
                 </div>
 
                 {/*Contact Info*/ }
-                <div className="grid grid-cols-3 gap-8 text-red-600">
+                <div className="sm:grid grid-cols-3 gap-8 text-red-600">
                     {/*Business Info*/ }
                     <div className="ant-col-md">
                         <h5 className="flex items-end gap-3 text-lg text-red-600 font-medium mb-5">
@@ -67,7 +67,7 @@ export const Footer = (props: any) => {
                     </div>
 
                     {/*Business Hours*/ }
-                    <div className="ant-col-md -ml-10 mr-10 mx-5">
+                    <div className="ant-col-md sm:-ml-10 sm:mr-10 sm:mx-5">
                         <h5 className="flex items-end gap-3 text-lg text-red-600 font-medium mb-5">
                             <ClockCircleOutlined className="pb-1"/>
                             <span>Business Hours</span>

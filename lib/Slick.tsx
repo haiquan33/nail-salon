@@ -13,6 +13,7 @@ export const Slick = (
     const items: ISlickData[] = data;
 
     const defaultSettings: Settings = {
+        className: 'mb-4',
         dots: true,
         speed: 500,
         slidesToShow: 4,
@@ -33,14 +34,13 @@ export const Slick = (
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    initialSlide: 2,
                 },
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                 },
             },
         ],
@@ -50,12 +50,12 @@ export const Slick = (
     const sliderSettings: Settings = { ...defaultSettings, ...settings };
 
     const sliderItem = items.map((item, index) => {
-        return <div key={ index + 1 } className="px-4">
+        return <div key={ index + 1 } className="px-2 mb-3 sm:px-4">
             <div className="mx-auto p-0.5">
                 <img src={ item.img } alt={ item.title } className={ elementStyle }/>
             </div>
 
-            <h2 className="text-lg text-red-600 mt-2">{ item.title }</h2>
+            <h2 className="sm:text-lg text-red-600 mt-2">{ item.title }</h2>
         </div>;
     });
 
