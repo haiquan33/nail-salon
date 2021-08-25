@@ -12,9 +12,9 @@ import {
     GiftCard,
     Menu,
     Message,
-    NavBar
+    NavBar,
+    Review
 } from 'components';
-import { Review } from '../components/Review';
 
 const Home: NextPage = () => {
     return (
@@ -23,6 +23,7 @@ const Home: NextPage = () => {
                 <title>Nails Kute & Spa of Fleming Island FL 32003 - Best Nail Salon Near Me</title>
                 <link rel="icon" href="/favicon.ico"/>
                 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
             </Head>
 
             {/* Nav bar section */ }
