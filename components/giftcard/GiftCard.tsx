@@ -1,3 +1,4 @@
+import { GIFT_CARD } from 'utils';
 import styles from 'styles/components/GiftCard.module.css';
 
 export const GiftCard = (props: any) => {
@@ -17,7 +18,8 @@ export const GiftCard = (props: any) => {
                     </div>
 
                     <div className={ `text-center text-red-600 bg-red-600 ${ styles['buy-gift-btn'] }` }>
-                        <a href="#"
+                        <a href={ GIFT_CARD }
+                           target="_blank"
                            className="p-3.5 text-black"
                         >
                             BUY NOW

@@ -6,6 +6,7 @@ import {
     LockOutlined,
     ShopOutlined
 } from '@ant-design/icons';
+import { FB_LINK, GOOGLE_LINK, INSTAGRAM_LINK, YELP_LINK } from 'utils';
 
 export const Footer = (props: any) => {
     return <footer id="site-footer" className="bg-black">
@@ -17,26 +18,26 @@ export const Footer = (props: any) => {
                 {/*Social Icons*/ }
                 <div id="social-links" className="flex justify-center gap-14 mb-10">
                     <FacebookFilled
-                        href="https://www.facebook.com/nailskutespa32003"
+                        href={ FB_LINK }
                         target="_blank"
                         className="text-4xl text-red-600"
                     />
 
                     <InstagramFilled
-                        href="https://instagram.com"
+                        href={ INSTAGRAM_LINK }
                         target="_blank"
                         className="text-4xl text-red-600"
                     />
 
                     <a rel="nofollow" target="_blank"
-                       href="https://www.yelp.com/biz/nails-kute-and-spa-fleming-island"
+                       href={ YELP_LINK }
                        className="mt-1"
                     >
                         <img width="36" height="36" src="/images/yelp-logo.svg" alt="Yelp logo"/>
                     </a>
 
                     <GooglePlusSquareFilled
-                        href="https://g.page/nailskutespa32003?share"
+                        href={ GOOGLE_LINK }
                         target="_blank"
                         className="text-4xl text-red-600"
                     />
