@@ -17,14 +17,12 @@ export const GiftCard = (props: any) => {
                         </p>
                     </div>
 
-                    <div className={ `text-center text-red-600 bg-red-600 ${ styles['buy-gift-btn'] }` }>
-                        <a href={ GIFT_CARD }
-                           target="_blank"
-                           className="p-3.5 text-black"
-                        >
-                            BUY NOW
-                        </a>
-                    </div>
+                    <a className={ `p-3.5 text-black bg-red-600 ${ styles['buy-gift-btn'] }` }
+                       href={ GIFT_CARD }
+                       target="_blank"
+                       rel="nofollow">
+                        Buy now
+                    </a>
                 </div>
 
                 <div className="ant-col-sm mb-6 sm:mb-0">

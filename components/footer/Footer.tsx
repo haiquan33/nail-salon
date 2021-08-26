@@ -9,6 +9,17 @@ import {
 import { FB_LINK, GOOGLE_LINK, INSTAGRAM_LINK, YELP_LINK } from 'utils';
 
 export const Footer = (props: any) => {
+    const today = new Date().getDay();
+    const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const item = weekDays.map((day, index) => {
+        return <div key={ index + 1 }
+                    className={ `flex justify-between p-2 mb-2 ${ today === index + 2 ? 'border border-red-600' : '' }` }
+        >
+            <span>{ day }</span>
+            <span>{ day === 'Monday' ? 'Closed' : '09:30 - 19:30' }</span>
+        </div>
+    });
+
     return <footer id="site-footer" className="bg-black">
         <div className="vnp-bg-primary text-white pt-6 pb-6">
             <div className="container">
@@ -73,34 +84,14 @@ export const Footer = (props: any) => {
                             <ClockCircleOutlined className="pb-1"/>
                             <span>Business Hours</span>
                         </h5>
+
+                        { item }
+
                         <div className="flex justify-between p-2 mb-2">
-                            <span>Monday</span>
-                            <span>Closed</span>
-                        </div>
-                        <div className="flex justify-between p-2 mb-2">
-                            <span>Tuesday</span>
-                            <span>09:30 - 19:30</span>
-                        </div>
-                        <div className="flex justify-between p-2 mb-2">
-                            <span>Wednesday</span>
-                            <span>09:30 - 19:30</span>
-                        </div>
-                        <div className="flex justify-between p-2 mb-2">
-                            <span>Thursday</span>
-                            <span>09:30 - 19:30</span>
-                        </div>
-                        <div className="flex justify-between p-2 mb-2">
-                            <span>Friday</span>
-                            <span>09:30 - 19:30</span>
-                        </div>
-                        <div className="flex justify-between p-2 mb-2">
-                            <span>Saturday</span>
-                            <span>09:30 - 19:30</span>
-                        </div>
-                        <div className="flex justify-between p-2 ">
                             <span>Sunday</span>
                             <span>12:00 - 18:00</span>
                         </div>
+
                         <div className="py-8 block md:hidden">
                             <div className="sep"/>
                         </div>
