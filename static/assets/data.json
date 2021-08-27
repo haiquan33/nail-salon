@@ -1,4 +1,5 @@
 {
+  "--------------------------------------NAV_BAR-------------------------------": "NAVBAR",
   "NAV_BAR_ITEMS": [
     "HOME",
     "ABOUT",
@@ -9,36 +10,375 @@
     "REVIEW",
     "CONTACT"
   ],
+
+  "--------------------------------------SALON_MENU-------------------------------": "SALON_MENU",
   "SALON_MENU_IMAGES": [
     {
       "title": "WAXING",
-      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Queen-Nails-Waxing-100-1-300x300.jpg.webp"
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Queen-Nails-Waxing-100-1-300x300.jpg.webp",
+      "submenu": [
+        {
+          "title": "Sideburn",
+          "price": "16",
+          "type": "Waxing",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2021/02/Sideburn-300x300.jpg"
+        },
+        {
+          "title": "Full Arms",
+          "price": "35",
+          "type": "Waxing",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/94.jpg"
+        },
+        {
+          "title": "Full Legs",
+          "price": "50",
+          "type": "Waxing",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/Bikini-Waxing-3.jpg"
+        },
+        {
+          "title": "Half Legs",
+          "price": "30",
+          "type": "Waxing",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/Leg-Waxing-1-300x300.png"
+        },
+        {
+          "title": "Half Arms",
+          "price": "20",
+          "type": "Waxing",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/85.jpg"
+        },
+        {
+          "title": "Under Arms",
+          "price": "20",
+          "type": "Waxing",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/Under-Arm-Waxing-1-_-Armpit.jpg"
+        },
+        {
+          "title": "Upper Lip",
+          "price": "8",
+          "type": "Waxing",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/Lip-Waxing-e1611291221139.jpg"
+        },
+        {
+          "title": "Eyebrows",
+          "price": "10",
+          "type": "Waxing",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/Eyebrow-Waxing-1-e1611401107295.jpg"
+        },
+        {
+          "title": "Chin",
+          "price": "12",
+          "type": "Waxing",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/chin.jpg"
+        }
+      ]
     },
     {
       "title": "PEDICURE",
-      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Trend-1000-300x300.jpeg.webp"
+      "subTitle": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Trend-1000-300x300.jpeg.webp",
+      "submenu": [
+        {
+          "title": "Gel Manicure",
+          "price": "30",
+          "type": "Pedicure",
+          "description": "Enjoy our Gel Manicure with a relaxing atmosphere...",
+          "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollie-Nails-Ads-25-300x300.jpeg"
+        },
+        {
+          "title": "Luxury Pedicure",
+          "price": "65",
+          "type": "Pedicure",
+          "description": "Scent options from Voesh Pedi-in-a-box Luxury 4-in-1 Kit:...",
+          "img": "https://vnailweb.com/wp-content/uploads/2021/03/Deluxe-Pedicure-Manicure-3-300x300.jpeg"
+        },
+        {
+          "title": "Deluxe Pedicure",
+          "price": "45",
+          "type": "Pedicure",
+          "description": "The Deluxe Pedicure includes the shaping of your...",
+          "img": "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Trend-2.jpg"
+        },
+        {
+          "title": "Spa Pedicure",
+          "price": "30",
+          "type": "Pedicure",
+          "description": "This service includes the shaping of your nails...",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/Cucumber-Pedicure-3-300x300.png"
+        },
+        {
+          "title": "Classic Pedicure",
+          "price": "25",
+          "type": "Pedicure",
+          "description": "Relax while we shape your nails, treat your...",
+          "img": "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Trend-1-300x300.jpeg"
+        }
+      ]
     },
     {
       "title": "NAIL ENHANCEMENT",
-      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollies-Nails78-300x300.jpg.webp"
+      "subTitle": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollies-Nails78-300x300.jpg.webp",
+      "submenu": [
+        {
+          "title": "Dip Color",
+          "price": "40",
+          "type": "Nail Enhancement",
+          "description": "Dipping Powder is a nail dipping system that...",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-33-300x300.jpeg"
+        },
+        {
+          "title": "Fill in Acrylic",
+          "price": "20",
+          "type": "Nail Enhancement",
+          "description": "Classic Nail Enhancement Services",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/12.png"
+        },
+        {
+          "title": "Fill in Liquid Gel",
+          "price": "35",
+          "type": "Nail Enhancement",
+          "description": "Classic Nail Enhancement Services",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/29.jpg"
+        },
+        {
+          "title": "Fill in Pink & White",
+          "price": "35",
+          "type": "Nail Enhancement",
+          "description": "Classic Nail Enhancement Services",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/20-5.jpg"
+        },
+        {
+          "title": "Ombré Fill in",
+          "price": "30",
+          "type": "Nail Enhancement",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/pink-and-white-ombre-nails.png"
+        },
+        {
+          "title": "Dip with Tip",
+          "price": "45",
+          "type": "Nail Enhancement",
+          "description": "Get stronger, lightweight, and naturally long-lasting nails with...",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/16-3.jpg"
+        },
+        {
+          "title": "Ombré Set",
+          "price": "50",
+          "type": "Nail Enhancement",
+          "description": "From the DCH blending system, ombré nails are...",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/8.jpg"
+        },
+        {
+          "title": "Full Set Pink & White",
+          "price": "45",
+          "type": "Nail Enhancement",
+          "description": "Classic Nail Enhancement Services",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/68-300x300.png"
+        },
+        {
+          "title": "Liquid Gel Full Set",
+          "price": "50",
+          "type": "Nail Enhancement",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2021/01/Artificial-Liquid-Gel.jpg"
+        },
+        {
+          "title": "Full Set Acrylic",
+          "price": "30",
+          "type": "Nail Enhancement",
+          "description": "Classic Nail Enhancement Services",
+          "img": "https://vnailweb.com/wp-content/uploads/2021/04/Noire-Nail-Bar-1-300x300.jpg"
+        }
+      ]
     },
     {
       "title": "MANICURE",
-      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollies-Nails106-300x300.jpg.webp"
+      "subTitle": "Come to our spa to relax, revive, and refresh, with our signature pedicure and manicure. We provide a variety of services to meet your needs!",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollies-Nails106-300x300.jpg.webp",
+      "submenu": [
+        {
+          "title": "Luxury Manicure",
+          "price": "40",
+          "type": "Manicure",
+          "description": "Scent options from Voesh Pedi-in-a-box luxury 4-in-1 Kit:...",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/shutterstock-1102626227-e1614001612397.png"
+        },
+        {
+          "title": "Deluxe Manicure",
+          "price": "30",
+          "type": "Manicure",
+          "description": "In this service, we begin by shaping your...",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/shutterstock-1102626227-e1614001612397.png"
+        },
+        {
+          "title": "Spa Manicure",
+          "price": "20",
+          "type": "Manicure",
+          "description": "Relax and unwind all your stress with the...",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/Candle-Manicure-3-300x300.jpg"
+        },
+        {
+          "title": "Classic Manicure",
+          "price": "15",
+          "type": "Manicure",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2021/04/Deluxe-Solar-Pink-White-Fill-ins-1-300x300.jpeg"
+        }
+      ]
     },
     {
       "title": "ADDITIONAL SERVICES",
-      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollie-Nails-Ads-35-300x300.jpeg.webp"
+      "subTitle": "Additional charge may apply",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollie-Nails-Ads-35-300x300.jpeg.webp",
+      "submenu": [
+        {
+          "title": "Extra Length",
+          "price": "Varies",
+          "type": "Additional Services",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/12/13-1.jpg"
+        },
+        {
+          "title": "Stiletto/ Ballerina",
+          "price": "5",
+          "type": "Additional Services",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/5-3-300x300.jpg"
+        },
+        {
+          "title": "Soak-off",
+          "price": "10",
+          "type": "Additional Services",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/4-1.jpg"
+        },
+        {
+          "title": "Fill-in Two Big Toes",
+          "price": "8",
+          "type": "Additional Services",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2021/03/Regular-Pedicure-Manicure-1-300x300.jpeg"
+        },
+        {
+          "title": "Acrylic Two Big Toes",
+          "price": "10",
+          "type": "Additional Services",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/15.jpg"
+        },
+        {
+          "title": "Acrylic Repair",
+          "price": "3",
+          "type": "Additional Services",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/3.png"
+        },
+        {
+          "title": "Design (per nail)",
+          "price": "3",
+          "type": "Additional Services",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/7-2-300x300.jpg"
+        },
+        {
+          "title": "French Polish Change",
+          "price": "12",
+          "type": "Additional Services",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/11-1.jpg"
+        },
+        {
+          "title": "Polish Change",
+          "price": "10",
+          "type": "Additional Services",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/Skype_Picture_2020_11_23T01_31_05_860Z-300x300.jpeg"
+        },
+        {
+          "title": "French/America",
+          "price": "5",
+          "type": "Additional Services",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/7.jpg"
+        }
+      ]
     },
     {
       "title": "KIDS MENU",
-      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Kid-Nails-1-300x300.jpg.webp"
+      "subTitle": "For children who are under 10 years of age",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Kid-Nails-1-300x300.jpg.webp",
+      "submenu": [
+        {
+          "title": "Pedicure",
+          "price": "18",
+          "type": "Kids Menu",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/Kid-Pedicure-4.png"
+        },
+        {
+          "title": "Manicure",
+          "price": "12",
+          "type": "Kids Menu",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/orig.jpeg"
+        },
+        {
+          "title": "Polish",
+          "price": "6",
+          "type": "Kids Menu",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/childrens-service.jpg"
+        }
+      ]
     },
     {
       "title": "GEL POLISH",
-      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollies-Nails102-300x300.jpg.webp"
+      "subTitle": "",
+      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Hollies-Nails102-300x300.jpg.webp",
+      "submenu": [
+        {
+          "title": "Jelly or Titanium Gel",
+          "price": "20",
+          "type": "Gel Polish",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/3-2-300x300.jpg"
+        },
+        {
+          "title": "Cat-Eye Gel",
+          "price": "20",
+          "type": "Gel Polish",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/cateyes.jpg"
+        },
+        {
+          "title": "Gel French",
+          "price": "20",
+          "type": "Gel Polish",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/10-1.jpg"
+        },
+        {
+          "title": "Gel Color",
+          "price": "15",
+          "type": "Gel Polish",
+          "description": "",
+          "img": "https://vnailweb.com/wp-content/uploads/2020/11/Nail-Designs-16-1-300x300.jpg"
+        }
+      ]
     }
   ],
+
+  "--------------------------------------MOST_WANTED_SERVICES-------------------------------": "MOST_WANTED_SERVICES",
   "FEATURED_PRODUCTS": [
     {
       "title": "Gel Manicure",
@@ -83,6 +423,8 @@
       "img": "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Trend-2.jpg.webp"
     }
   ],
+
+  "--------------------------------------WHAT_WE_USE-------------------------------": "WHAT_WE_USE",
   "BRANDS": [
     {
       "title": "",
@@ -105,6 +447,8 @@
       "img": "https://vnailweb.com/wp-content/uploads/2020/11/Logo-05-300x300.jpg.webp"
     }
   ],
+
+  "--------------------------------------PREVIOUS_WORK-------------------------------": "PREVIOUS_WORK",
   "PREVIOUS_WORKS": [
     {
       "works": [
@@ -309,6 +653,8 @@
       "total": 121
     }
   ],
+
+  "--------------------------------------FAQS-------------------------------": "FAQS",
   "FAQS": [
     {
       "question": "How is Gel Polish or Shellac Polish Removed?",
@@ -339,6 +685,8 @@
       "answer": "Book your appointment by sending a notice to the salon manager’s email. Please mention your name, phone number, and the service(s) required. We will respond to you and confirm your appointment."
     }
   ],
+
+  "--------------------------------------COMMENTS-------------------------------": "COMMENTS",
   "COMMENTS": [
     {
       "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Charlotte-Patin--300x300.jpeg.webp",

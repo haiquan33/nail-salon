@@ -1,10 +1,18 @@
+import { useState } from 'react';
+import { IFeatureProduct, ISlickData } from 'types';
+import { SubMenu } from 'components/menu/components';
 import Slider, { Settings } from '@ant-design/react-slick';
-import { ISlickData } from 'types';
 
 interface ISlickProps {
     data: ISlickData[];
     settings?: Settings;
     elementStyle?: string;
+}
+
+interface ISubData {
+    title: string;
+    subTitle?: string;
+    content: Partial<IFeatureProduct[]>;
 }
 
 export const Slick = (
@@ -50,9 +58,28 @@ export const Slick = (
 
     const sliderSettings: Settings = { ...defaultSettings, ...settings };
 
+    const [visible, setVisible] = useState(false);
+
+    const [subData, setSubData] = useState<ISubData>({
+        title: '',
+        subTitle: '',
+        content: []
+    });
+
+    const callbackFunc = (visible: boolean) => setVisible(visible);
+
+    const itemClick = (item: ISlickData) => {
+        setVisible(true);
+        setSubData({
+            title: item.title,
+            subTitle: item.subTitle,
+            content: item.submenu || []
+        });
+    };
+
     const sliderItem = items.map((item, index) => {
         return <div key={ index + 1 } className="px-2 mb-3 sm:px-4">
-            <div className="mx-auto p-0.5">
+            <div className="mx-auto p-0.5" onClick={ () => itemClick(item) }>
                 <img src={ item.img } alt={ item.title } className={ elementStyle }/>
             </div>
 
@@ -60,7 +87,13 @@ export const Slick = (
         </div>;
     });
 
-    return <Slider { ...sliderSettings }>
-        { sliderItem }
-    </Slider>;
+    return (
+        <>
+            <Slider { ...sliderSettings }>
+                { sliderItem }
+            </Slider>
+
+            <SubMenu visible={ visible } data={ subData } setVisible={ callbackFunc }/>
+        </>
+    );
 };

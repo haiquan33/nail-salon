@@ -9,14 +9,23 @@ import {
 import { FB_LINK, GOOGLE_LINK, INSTAGRAM_LINK, YELP_LINK } from 'utils';
 
 export const Footer = (props: any) => {
-    const today = new Date().getDay();
-    const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    const item = weekDays.map((day, index) => {
-        return <div key={ index + 1 }
-                    className={ `flex justify-between p-2 mb-2 ${ today === index + 2 ? 'border border-red-600' : '' }` }
+    const weekDays = [
+        { date: 'Monday', open: 'Closed' },
+        { date: 'Tuesday', open: '09:30 - 19:30' },
+        { date: 'Wednesday', open: '09:30 - 19:30' },
+        { date: 'Thursday', open: '09:30 - 19:30' },
+        { date: 'Friday', open: '09:30 - 19:30' },
+        { date: 'Saturday', open: '09:30 - 19:30' },
+        { date: 'Sunday', open: '12:00 - 18:00' },
+    ];
+    const today = new Date().getUTCDay();
+    const item = weekDays.map(({ date, open }, index) => {
+        return <div
+            key={ index + 1 }
+            className={ `flex justify-between p-2 mb-2 ${ today === index + 2 ? 'border border-red-600' : '' }` }
         >
-            <span>{ day }</span>
-            <span>{ day === 'Monday' ? 'Closed' : '09:30 - 19:30' }</span>
+            <span>{ date }</span>
+            <span>{ open }</span>
         </div>
     });
 
@@ -44,7 +53,7 @@ export const Footer = (props: any) => {
                        href={ YELP_LINK }
                        className="mt-1"
                     >
-                        <img width="36" height="36" src="/images/yelp-logo.svg" alt="Yelp logo"/>
+                        <img width="36" height="36" src="/icons/yelp-logo.svg" alt="Yelp logo"/>
                     </a>
 
                     <GooglePlusSquareFilled
@@ -86,11 +95,6 @@ export const Footer = (props: any) => {
                         </h5>
 
                         { item }
-
-                        <div className="flex justify-between p-2 mb-2">
-                            <span>Sunday</span>
-                            <span>12:00 - 18:00</span>
-                        </div>
 
                         <div className="py-8 block md:hidden">
                             <div className="sep"/>
