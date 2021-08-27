@@ -1,6 +1,6 @@
 import { PageHeader } from 'shared';
 import { IFeatureProduct } from 'types';
-import { Badge, Modal, Tag } from 'antd';
+import { Badge, Modal, ModalProps, Tag } from 'antd';
 import { CloseOutlined, DollarOutlined } from '@ant-design/icons';
 import productStyles from 'styles/components/FeatureService.module.css';
 
@@ -38,22 +38,24 @@ export const SubMenu = ({ visible, data, setVisible }: any) => {
         </div>
     });
 
-    const modalTitle = <PageHeader text={ data?.title } className="text-red-600"/>;
+    const title = <PageHeader text={ data?.title } className="text-red-600"/>;
     const closeIcon = <CloseOutlined className="text-red-600"/>
 
-    return <Modal
-        centered
-        width={ 1000 }
-        footer={ null }
-        visible={ visible }
-        title={ modalTitle }
-        closeIcon={ closeIcon }
-        onCancel={ () => setVisible(false) }
-        bodyStyle={ { background: '#b3030c' } }
-    >
-        <p className="text-white mb-3">{ data?.subTitle }</p>
+    const modalSettings: ModalProps = {
+        centered: true,
+        width: 1200,
+        footer: null,
+        visible,
+        title,
+        closeIcon,
+        onCancel: () => setVisible(false),
+        bodyStyle: { background: '#b3030c', border: '2px solid #fff' }
+    }
 
-        <div className="sm:grid lg:grid-cols-2 gap-4 lg:mx-24">
+    return <Modal { ...modalSettings }>
+        <p className="text-white text-lg mb-6 lg:mb-10 lg:ml-10">{ data?.subTitle }</p>
+
+        <div className="sm:grid lg:grid-cols-2 gap-4">
             { product }
         </div>
     </Modal>

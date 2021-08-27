@@ -9,7 +9,7 @@ export const FeatureService = (props: any) => {
     const title = 'Most Wanted Services';
     const products: IFeatureProduct[] = staticData.FEATURED_PRODUCTS;
     const product = products.map((prod, index) => {
-        return <div key={ index + 1 } className="mb-4 sm:mb-6 lg:ml-10">
+        return <div key={ index + 1 } className="mb-6 lg:ml-10">
             <Badge.Ribbon text={ prod.type } color="black" className="hidden sm:block">
                 <div className="flex gap-4">
                     {/* Thumbnail */ }
@@ -21,7 +21,7 @@ export const FeatureService = (props: any) => {
 
                     <div className="flex flex-col sm:justify-center">
                         {/* Title */ }
-                        <h3 className="mb-2 text-white font-bold lg:text-lg">{ prod.title }</h3>
+                        <h3 className="mb-2 text-white font-bold sm:mt-2 lg:text-lg">{ prod.title }</h3>
 
                         {/* Price */ }
                         <div className="meta d-flex flex-wrap">
@@ -46,7 +46,7 @@ export const FeatureService = (props: any) => {
         <div className="container">
             <PageHeader text={ title }/>
 
-            <div className="sm:grid lg:grid-cols-2 gap-4 lg:mx-24">
+            <div className="sm:grid lg:grid-cols-2 gap-4 lg:mx-16">
                 { product }
             </div>
         </div>
