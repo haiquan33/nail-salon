@@ -46,6 +46,13 @@ a {
     font-family: "Roboto Thin", sans-serif;
 }
 
+.robo_head {
+    font-size: 1.5em;
+}
+
+.section-head {
+    font-size: 2em;
+}
 /* Utils class */
 
 .container {
@@ -80,12 +87,13 @@ a {
     border-radius: 10px
 }
 
-.robo_head {
-    font-size: 1.5em;
+.ant-modal-header {
+    background: #111111;
 }
 
-.section-head {
-    font-size: 2em;
+.ant-modal-header h1 {
+    margin-bottom: 0;
+    font-size: 1.5em;
 }
 
 .intro_sub_head {
