@@ -89,6 +89,8 @@ a {
 
 .ant-modal-header {
     background: #111111;
+    border: 2px solid #fff;
+    border-bottom: none;
 }
 
 .ant-modal-header h1 {
