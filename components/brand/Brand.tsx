@@ -8,8 +8,8 @@ import styles from 'styles/components/Brand.module.css';
 export const Brand = (props: any) => {
     const title = 'What We Use';
     const brands: ISlickData[] = staticData.BRANDS;
-    const logoStyle = 'mx-auto ' + styles['brand-logo'];
-    const settings: Settings = {
+    const logoStyle = 'mx-auto object-contain ' + styles['brand-logo'];
+    const settings: Settings & { lightBox?: boolean } = {
         slidesToShow: 5,
         className: 'lg:mx-40 md:mx-28',
         responsive: [
@@ -37,7 +37,9 @@ export const Brand = (props: any) => {
                     slidesToScroll: 3,
                 },
             },
-        ]
+        ],
+        autoplay: false,
+        lightBox: false
     };
 
     return <section id="brands" className="py-5 sm:py-8 lg:py-10 text-white bg-black">

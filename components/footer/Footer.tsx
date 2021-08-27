@@ -78,7 +78,7 @@ export const Footer = (props: any) => {
 
                         <p className="flex">
                             <a target="_blank" href="https://g.page/nailskutespa32003?share">
-                                4685 US-17 Fleming Island, FL 32003
+                                4685 US-17 Suite 1, Fleming Island, FL 32003
                             </a>
                         </p>
 
