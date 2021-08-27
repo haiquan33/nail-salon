@@ -5,7 +5,7 @@ import Slider, { Settings } from '@ant-design/react-slick';
 
 interface ISlickProps {
     data: ISlickData[];
-    settings?: Settings;
+    settings?: Settings & { lightBox?: boolean };
     elementStyle?: string;
 }
 
@@ -18,9 +18,19 @@ interface ISubData {
 export const Slick = (
     { data, settings = {}, elementStyle = 'mx-auto ' }: ISlickProps
 ) => {
+    const [visible, setVisible] = useState(false);
+
+    const [subData, setSubData] = useState<ISubData>({
+        title: '',
+        subTitle: '',
+        content: []
+    });
+
+    const callbackFunc = (visible: boolean) => setVisible(visible);
+
     const items: ISlickData[] = data;
 
-    const defaultSettings: Settings = {
+    const defaultSettings: Settings & { lightBox?: boolean } = {
         className: 'mb-4',
         autoplay: true,
         dots: true,
@@ -54,33 +64,26 @@ export const Slick = (
             },
         ],
         arrows: false,
+        lightBox: true
     };
 
-    const sliderSettings: Settings = { ...defaultSettings, ...settings };
-
-    const [visible, setVisible] = useState(false);
-
-    const [subData, setSubData] = useState<ISubData>({
-        title: '',
-        subTitle: '',
-        content: []
-    });
-
-    const callbackFunc = (visible: boolean) => setVisible(visible);
+    const sliderSettings: Settings & { lightBox?: boolean } = { ...defaultSettings, ...settings };
 
     const itemClick = (item: ISlickData) => {
-        setVisible(true);
-        setSubData({
-            title: item.title,
-            subTitle: item.subTitle,
-            content: item.submenu || []
-        });
+        if (sliderSettings.lightBox) {
+            setVisible(true);
+            setSubData({
+                title: item.title,
+                subTitle: item.subTitle,
+                content: item.submenu || []
+            });
+        }
     };
 
     const sliderItem = items.map((item, index) => {
         return <div key={ index + 1 } className="px-2 mb-3 sm:px-4">
-            <div className="mx-auto p-0.5" onClick={ () => itemClick(item) }>
-                <img src={ item.img } alt={ item.title } className={ elementStyle }/>
+            <div className="mx-auto p-0.5 border border-dotted" onClick={ () => itemClick(item) }>
+                <img src={ item.img } alt={ item.title } className={ `${ elementStyle }` }/>
             </div>
 
             <h2 className="sm:text-lg text-red-600 mt-2">{ item.title }</h2>

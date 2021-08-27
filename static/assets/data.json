@@ -403,24 +403,73 @@
     },
     {
       "title": "Full Set Pink & White",
-      "price": "45",
+      "price": "50",
       "type": "Nail Enhancement",
       "description": "Classic Nail Enhancement Services",
       "img": "https://vnailweb.com/wp-content/uploads/2020/11/68-300x300.png.webp"
     },
     {
-      "title": "Luxury Pedicure",
+      "title": "Japanese Cherry Blossom",
       "price": "65",
-      "type": "Pedicure",
-      "description": "Scent options from Voesh Pedi-in-a-box Luxury 4-in-1 Kit: Mango- Jasmine- Tangerine Twist- Charcoal- Green Tea- Lavender- Lemon- Cucumber Introducing Voesh...",
-      "img": "https://vnailweb.com/wp-content/uploads/2021/03/Deluxe-Pedicure-Manicure-3-300x300.jpeg.webp"
+      "type": "Skin Care",
+      "description": "Always beautiful. Cherry blossom is rich in essential fatty acids; it repairs the skins natural barriers to promote smooth, supple skin.",
+      "img": "//cdn.shopify.com/s/files/1/2366/1215/products/CherryBlossom_df6fabf4-6805-47ba-b832-921e745b754d_2048x2048.png?v=1622487542"
     },
     {
-      "title": "Deluxe Pedicure",
-      "price": "45",
-      "type": "Pedicure",
-      "description": "The Deluxe Pedicure includes the shaping of your nails and cuticle and callus removal. A refreshing and exfoliating OPI sugar...",
-      "img": "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Trend-2.jpg.webp"
+      "title": "Hawaii Citrus",
+      "price": "65",
+      "type": "Skin Care",
+      "description": "Never enough Glow. Citrus helps destroy free radicals in your skin and provides a radiant glow to your skin.",
+      "img": "//cdn.shopify.com/s/files/1/2366/1215/products/HawaiiCitrus_df2baa60-7d05-49d3-bc9a-543b52a7eee5_2048x2048.png?v=1622487847"
+    },
+    {
+      "title": "Peony Orchid",
+      "price": "65",
+      "type": "Skin Care",
+      "description": "Perfect flowers for the skin. Peony & Orchid contain an antioxidant power to boost the immunity of the skin, reduce fine lines, signs of aging and soothes the skin.",
+      "img": "//cdn.shopify.com/s/files/1/2366/1215/products/PeonyOrchid_2048x2048.png?v=1622487188"
+    },
+    {
+      "title": "Melon Mango",
+      "price": "65",
+      "type": "Skin Care",
+      "description": "Amazing benefits to skin care. Melon Mango contains both Vitamin C and Copper, they promote healthy skin by aiding collagen production and tissue repair.",
+      "img": "//cdn.shopify.com/s/files/1/2366/1215/products/MelonMango_2048x2048.png?v=1622518343"
+    },
+    {
+      "title": "Magnolia Lychee Raspberry",
+      "price": "65",
+      "type": "Skin Care",
+      "description": "Fabulous sexy skin. Magnolia Lychee Raspberry is Anti-Aging and Anti-Wrinkle helping to repair fine lines and the start of wrinkles.",
+      "img": "//cdn.shopify.com/s/files/1/2366/1215/products/CrazyRich_2048x2048.png?v=1622003436"
+    },
+    {
+      "title": "French Lavender",
+      "price": "65",
+      "type": "Skin Care",
+      "description": "Lavender has been rising in popularity for relaxation purposes and has always been a favorite. An Anti-inflammatory superstar helping to soothe skin, heal and moisturize for a glowing, younger complexion.",
+      "img": "//cdn.shopify.com/s/files/1/2366/1215/products/FrenchLavender_2048x2048.png?v=1622486240"
+    },
+    {
+      "title": "Jasmine",
+      "price": "65",
+      "type": "Skin Care",
+      "description": "Natural lovely scent. It rejuvenates, nourishes skin, and helps to slow down the aging process by eliminating free radicals that can cause wrinkles and skin damage.",
+      "img": "//cdn.shopify.com/s/files/1/2366/1215/products/TeaParty_2048x2048.png?v=1622487361"
+    },
+    {
+      "title": "Mother Of Pearl",
+      "price": "65",
+      "type": "Skin Care",
+      "description": "The secret to perfection. It brightens your skin creating high luminosity and visibly minimize irregularities.",
+      "img": "//cdn.shopify.com/s/files/1/2366/1215/products/MotherOfPearl_2048x2048.png?v=1622518580"
+    },
+    {
+      "title": "Vervain",
+      "price": "65",
+      "type": "Skin Care",
+      "description": "Vervain (Summer Renew!) The Summer flower that contains a magical healing power to helps inducing calmness, relaxation, and overcome respiratory problems. Vervain is also an Antibacterial helps heal wounds and relieves skin discomfort.",
+      "img": "//cdn.shopify.com/s/files/1/2366/1215/products/RedCarpet_2048x2048.png?v=1622487955"
     }
   ],
 
@@ -445,6 +494,22 @@
     {
       "title": "",
       "img": "https://vnailweb.com/wp-content/uploads/2020/11/Logo-05-300x300.jpg.webp"
+    },
+    {
+      "title": "",
+      "img": "/images/kiara-sky-logo.png"
+    },
+    {
+      "title": "",
+      "img": "/images/igel-beauty-logo.jpeg"
+    },
+    {
+      "title": "",
+      "img": "/images/dnd-dc-logo.png"
+    },
+    {
+      "title": "",
+      "img": "/images/dch-acrylic-logo.png"
     }
   ],
 
