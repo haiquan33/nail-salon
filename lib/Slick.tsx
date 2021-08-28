@@ -81,7 +81,12 @@ export const Slick = (
             <div
                 className={ `mx-auto ${ containerClassName }` }
                 onClick={ () => itemClick(item) }>
-                <img src={ item.img } alt={ item.title } className={ `${ elementClassName }` }/>
+                <img
+                    src={ item.img }
+                    alt={ item.title }
+                    className={ `${ elementClassName }` }
+                    loading="lazy"
+                />
             </div>
 
             <h2 className="sm:text-lg text-red-600 mt-2">

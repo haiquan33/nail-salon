@@ -5,8 +5,12 @@ export const Message = (props: any) => {
         <div className="container">
             <div className="flex justify-around sm:justify-between sm:items-end">
                 <div className="relative ant-col-8 ant-col-md-8 ant-col-sm-8">
-                    <img className={ styles.model } src="https://vnailweb.com/wp-content/uploads/2020/11/sms.png.webp"
-                         alt="..."/>
+                    <img
+                        src="https://vnailweb.com/wp-content/uploads/2020/11/sms.png.webp"
+                        alt="..."
+                        className={ styles.model }
+                        loading="lazy"
+                    />
                 </div>
 
                 <div className="ant-col ant-col-sm-16 ant-col-md-14">

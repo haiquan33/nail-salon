@@ -27,8 +27,11 @@ export const GiftCard = (props: any) => {
 
                 <div className="ant-col-sm mb-6 sm:mb-0">
                     <a className="" href="https://vnailweb.com/checkout/">
-                        <img src="https://vnailweb.com/wp-content/uploads/2020/11/Banner-Gift-NAILS-KUTE-SPA-1.jpg"
-                             alt="..."/>
+                        <img
+                            src="https://vnailweb.com/wp-content/uploads/2020/11/Banner-Gift-NAILS-KUTE-SPA-1.jpg"
+                            alt="..."
+                            loading="lazy"
+                        />
                     </a>
                 </div>
             </div>

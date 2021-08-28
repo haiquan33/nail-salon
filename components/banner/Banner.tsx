@@ -8,9 +8,11 @@ export const Banner = (props: any) => {
                 srcSet={ 'https://vnailweb.com/wp-content/uploads/2020/12/Banner-PC-NAILS-KUTE-SPA.jpg.webp' }/>
 
             <img
-                className="w-full"
                 src="https://vnailweb.com/wp-content/uploads/2020/12/Banner-MB-NAILS-KUTE-SPA.jpg.webp"
-                alt="Vendor Banner"/>
+                alt="Vendor Banner"
+                className="w-full"
+                loading="lazy"
+            />
         </picture>
     </section>
 };
