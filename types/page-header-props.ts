@@ -1,7 +1,5 @@
-import { CSSProperties } from 'react';
+import { IBaseProps } from './base-props';
 
-export interface IPageHeaderProps {
+export interface IPageHeaderProps extends IBaseProps {
     text: string;
-    className?: string;
-    style?: CSSProperties;
 }

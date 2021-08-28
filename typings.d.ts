@@ -1,3 +1,9 @@
+import { Settings as SlickSettings } from '@ant-design/react-slick';
+
+export interface Settings extends SlickSettings {
+    lightBox?: boolean;
+}
+
 export interface Props {
     images: ImageOptions[];
     id?: string;
@@ -29,3 +35,4 @@ export interface ImageOptions {
     customOverlay?: any;
     orientation?: number;
 }
+
