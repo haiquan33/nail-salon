@@ -1,16 +1,15 @@
-import { Slick } from 'lib';
+import { ISlickProps, Slick } from 'lib';
+import { Settings } from 'typings';
 import { ISlickData } from 'types';
 import { PageHeader } from 'shared';
-import { Settings } from '@ant-design/react-slick';
 import staticData from 'static/assets/data.json';
-import styles from 'styles/components/Brand.module.css';
 
 export const Brand = (props: any) => {
     const title = 'What We Use';
-    const brands: ISlickData[] = staticData.BRANDS;
-    const logoStyle = 'mx-auto object-contain ' + styles['brand-logo'];
-    const settings: Settings & { lightBox?: boolean } = {
+    const data: ISlickData[] = staticData.BRANDS;
+    const settings: Settings = {
         slidesToShow: 5,
+        slidesToScroll: 5,
         className: 'lg:mx-40 md:mx-28',
         responsive: [
             {
@@ -38,15 +37,19 @@ export const Brand = (props: any) => {
                 },
             },
         ],
-        autoplay: false,
         lightBox: false
+    };
+    const slickSettings: ISlickProps = {
+        data, settings,
+        elementClassName: 'mx-auto object-contain brand-logo',
+        containerClassName: 'border border-dotted brand-logo'
     };
 
     return <section id="brands" className="py-5 sm:py-8 lg:py-10 text-white bg-black">
         <div className="container">
             <PageHeader text={ title } className="text-red-600"/>
 
-            <Slick data={ brands } settings={ settings } elementStyle={ logoStyle }/>
+            <Slick { ...slickSettings }/>
         </div>
     </section>
 };

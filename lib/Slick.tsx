@@ -1,12 +1,12 @@
+import { Modal } from 'shared';
 import { useState } from 'react';
-import { IFeatureProduct, ISlickData } from 'types';
-import { SubMenu } from 'components/menu/components';
-import Slider, { Settings } from '@ant-design/react-slick';
+import { Settings } from 'typings';
+import Slider from '@ant-design/react-slick';
+import { IBaseProps, IFeatureProduct, ISlickData } from 'types';
 
-interface ISlickProps {
+export interface ISlickProps extends IBaseProps {
     data: ISlickData[];
-    settings?: Settings & { lightBox?: boolean };
-    elementStyle?: string;
+    settings?: Settings;
 }
 
 interface ISubData {
@@ -16,21 +16,18 @@ interface ISubData {
 }
 
 export const Slick = (
-    { data, settings = {}, elementStyle = 'mx-auto ' }: ISlickProps
+    { data, settings = {}, elementClassName = 'mx-auto ', containerClassName = '' }: ISlickProps
 ) => {
     const [visible, setVisible] = useState(false);
-
     const [subData, setSubData] = useState<ISubData>({
         title: '',
         subTitle: '',
         content: []
     });
-
-    const callbackFunc = (visible: boolean) => setVisible(visible);
+    const setVisibleCallback = (visible: boolean) => setVisible(visible);
 
     const items: ISlickData[] = data;
-
-    const defaultSettings: Settings & { lightBox?: boolean } = {
+    const defaultSettings: Settings = {
         className: 'mb-4',
         autoplay: true,
         dots: true,
@@ -66,8 +63,7 @@ export const Slick = (
         arrows: false,
         lightBox: true
     };
-
-    const sliderSettings: Settings & { lightBox?: boolean } = { ...defaultSettings, ...settings };
+    const sliderSettings: Settings = { ...defaultSettings, ...settings };
 
     const itemClick = (item: ISlickData) => {
         if (sliderSettings.lightBox) {
@@ -82,11 +78,15 @@ export const Slick = (
 
     const sliderItem = items.map((item, index) => {
         return <div key={ index + 1 } className="px-2 mb-3 sm:px-4">
-            <div className="mx-auto p-0.5 border border-dotted" onClick={ () => itemClick(item) }>
-                <img src={ item.img } alt={ item.title } className={ `${ elementStyle }` }/>
+            <div
+                className={ `mx-auto ${ containerClassName }` }
+                onClick={ () => itemClick(item) }>
+                <img src={ item.img } alt={ item.title } className={ `${ elementClassName }` }/>
             </div>
 
-            <h2 className="sm:text-lg text-red-600 mt-2">{ item.title }</h2>
+            <h2 className="sm:text-lg text-red-600 mt-2">
+                { item.title }
+            </h2>
         </div>;
     });
 
@@ -96,7 +96,7 @@ export const Slick = (
                 { sliderItem }
             </Slider>
 
-            <SubMenu visible={ visible } data={ subData } setVisible={ callbackFunc }/>
+            <Modal visible={ visible } data={ subData } setVisible={ setVisibleCallback }/>
         </>
     );
 };
