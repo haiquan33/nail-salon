@@ -32,8 +32,12 @@ export const Footer = (props: any) => {
     return <footer id="site-footer" className="bg-black">
         <div className="vnp-bg-primary text-white pt-6 pb-6">
             <div className="container">
-                <img width="120" src="https://vnailweb.com/wp-content/uploads/2020/12/Logo-12.png" alt="..."
-                     className="mx-auto logo-footer mb-6"/>
+                <img
+                    width="120" src="https://vnailweb.com/wp-content/uploads/2020/12/Logo-12.png"
+                    alt="..."
+                    className="mx-auto logo-footer mb-6"
+                    loading="lazy"
+                />
 
                 {/*Social Icons*/ }
                 <div id="social-links" className="flex justify-center gap-14 mb-10">
@@ -49,7 +53,7 @@ export const Footer = (props: any) => {
                        href={ YELP_LINK }
                        className="mt-1"
                     >
-                        <img width="36" height="36" src="/icons/yelp-logo.svg" alt="Yelp logo"/>
+                        <img width="36" height="36" src="/icons/yelp-logo.svg" alt="Yelp logo" loading="lazy"/>
                     </a>
 
                     <a href={ GOOGLE_LINK } target="_blank">

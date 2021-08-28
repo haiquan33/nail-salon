@@ -1,24 +1,28 @@
 // @ts-ignore
 import Gallery from 'react-grid-gallery';
-import { IWorkPagination } from 'types';
+import { IPagination } from 'types';
 import { CSSProperties } from 'react';
 import { ImageOptions } from 'typings';
 import { matchScreen, MIN_WIDTH_640 } from 'utils';
 
 interface IGridGalleryProps {
-    data: IWorkPagination[];
-    page: number;
+    data: IPagination[];
+    pages: number[];
 }
 
-export const GridGallery = ({ data, page }: IGridGalleryProps) => {
-    const IMAGES = data.find(item => item.page === page)?.works.map(item => (
-        {
-            src: item,
-            thumbnail: item,
-            thumbnailWidth: 270,
-            thumbnailHeight: 270,
-        }
-    )) as unknown as ImageOptions[];
+export const GridGallery = ({ data, pages }: IGridGalleryProps) => {
+    const IMAGES = data
+        .filter(({ page }) => pages.includes(page)) // Filter only on showing pages
+        .flatMap(({ data }) => // Map images to show in gallery
+            data.map(work => (
+                {
+                    src: work,
+                    thumbnail: work,
+                    thumbnailWidth: 270,
+                    thumbnailHeight: 270,
+                }
+            ))
+        ) as unknown as ImageOptions[];
 
     const tileViewportStyle = () => {
         if (matchScreen(MIN_WIDTH_640)) {

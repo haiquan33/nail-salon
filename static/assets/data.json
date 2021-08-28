@@ -516,7 +516,7 @@
   "--------------------------------------PREVIOUS_WORK-------------------------------": "PREVIOUS_WORK",
   "PREVIOUS_WORKS": [
     {
-      "works": [
+      "data": [
         "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-01-300x300.jpg",
         "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-23-300x300.jpg",
         "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-8-300x300.jpeg",
@@ -535,7 +535,7 @@
       "total": 121
     },
     {
-      "works": [
+      "data": [
         "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-25-300x300.jpeg.webp",
         "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-27-300x300.jpeg.webp",
         "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-6-300x300.jpeg.webp",
@@ -554,7 +554,7 @@
       "total": 121
     },
     {
-      "works": [
+      "data": [
         "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-20-300x300.jpeg.webp",
         "https://vnailweb.com/wp-content/uploads/2021/03/Organic-Firewalker-Pedicure-with-Gel-Polish-1-300x300.jpeg.webp",
         "https://vnailweb.com/wp-content/uploads/2021/04/Pedicure-Services-1-300x300.jpeg.webp",
@@ -573,7 +573,7 @@
       "total": 121
     },
     {
-      "works": [
+      "data": [
         "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0898-300x300.jpg.webp",
         "https://vnailweb.com/wp-content/uploads/2020/11/1-1-300x300.jpg.webp",
         "https://vnailweb.com/wp-content/uploads/2020/11/2-4-300x300.jpg.webp",
@@ -592,7 +592,7 @@
       "total": 121
     },
     {
-      "works": [
+      "data": [
         "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0894-300x300.jpg.webp",
         "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0896-300x300.jpg.webp",
         "https://vnailweb.com/wp-content/uploads/2020/12/IMG_0899-300x300.jpg.webp",
@@ -611,7 +611,7 @@
       "total": 121
     },
     {
-      "works": [
+      "data": [
         "https://vnailweb.com/wp-content/uploads/2021/02/Pedicure-Broadmoore-Nails-1-300x300.jpg.webp",
         "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-60-300x300.jpeg.webp",
         "https://vnailweb.com/wp-content/uploads/2020/12/Nail-Kute-Spa-1-300x300.jpeg.webp",
@@ -630,7 +630,7 @@
       "total": 121
     },
     {
-      "works": [
+      "data": [
         "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-35-300x300.jpeg.webp",
         "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-33-300x300.jpeg.webp",
         "https://vnailweb.com/wp-content/uploads/2020/12/Nails-Kute-Spa-30-300x300.jpeg.webp",
@@ -649,7 +649,7 @@
       "total": 121
     },
     {
-      "works": [
+      "data": [
         "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-06-300x300.jpg",
         "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-07-300x300.jpg",
         "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-08-300x300.jpg",
@@ -658,21 +658,17 @@
         "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-13-300x300.jpg",
         "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-14-300x300.jpg",
         "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-15-300x300.jpg",
-        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-11-300x300.jpg",
-        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-13-300x300.jpg",
-        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-14-300x300.jpg",
-        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-15-300x300.jpg"
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-17-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-16-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-18-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-19-300x300.jpg"
       ],
       "page": 8,
       "per_page": 12,
       "total": 121
     },
     {
-      "works": [
-        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-17-300x300.jpg",
-        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-16-300x300.jpg",
-        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-18-300x300.jpg",
-        "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-19-300x300.jpg",
+      "data": [
         "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-20-300x300.jpg",
         "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-22-300x300.jpg",
         "https://vnailweb.com/wp-content/uploads/2021/07/Nails-Kute-_-Spa-24-300x300.jpg",
@@ -680,18 +676,18 @@
         "https://vnailweb.com/wp-content/uploads/2021/06/Combo-Manicure-Pedicure-1-300x300.jpg",
         "https://vnailweb.com/wp-content/uploads/2021/05/Pedicure-Smooth-1007-300x300.jpg",
         "https://vnailweb.com/wp-content/uploads/2021/05/Pedicure-Beauty-Nails-Spa-8-300x300.jpg.webp",
-        "https://vnailweb.com/wp-content/uploads/2021/05/Pedicure-Beauty-Nails-Spa-7-300x300.jpg.webp"
+        "https://vnailweb.com/wp-content/uploads/2021/05/Pedicure-Beauty-Nails-Spa-7-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/05/Pedicure-Beauty-Nails-Spa-2-300x300.jpg.webp",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-18-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-17-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-16-300x300.jpeg"
       ],
       "page": 9,
       "per_page": 12,
       "total": 121
     },
     {
-      "works": [
-        "https://vnailweb.com/wp-content/uploads/2021/05/Pedicure-Beauty-Nails-Spa-2-300x300.jpg.webp",
-        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-18-300x300.jpeg",
-        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-17-300x300.jpeg",
-        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-16-300x300.jpeg",
+      "data": [
         "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-15-300x300.jpeg",
         "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-14-300x300.jpeg",
         "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-13-300x300.jpeg",
@@ -699,22 +695,22 @@
         "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-11-300x300.jpeg",
         "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-9-300x300.jpeg",
         "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-7--300x300.jpeg",
-        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-5-300x300.jpeg"
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-5-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-4-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-2-300x300.jpeg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Manicure-Pedicure-300x300.jpg",
+        "https://vnailweb.com/wp-content/uploads/2021/06/Chocolate-Pedicure-2-1-300x300.png"
       ],
       "page": 10,
       "per_page": 12,
       "total": 121
     },
     {
-      "works": [
-        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-4-300x300.jpeg",
-        "https://vnailweb.com/wp-content/uploads/2021/06/Pedicure-Smooth-2-300x300.jpeg",
-        "https://vnailweb.com/wp-content/uploads/2021/06/Manicure-Pedicure-300x300.jpg",
-        "https://vnailweb.com/wp-content/uploads/2021/06/Chocolate-Pedicure-2-1-300x300.png",
+      "data": [
         "https://vnailweb.com/wp-content/uploads/2021/06/Hollywood-Pedicure--300x300.jpeg"
       ],
       "page": 11,
-      "per_page": 5,
+      "per_page": 1,
       "total": 121
     }
   ],
@@ -754,28 +750,66 @@
   "--------------------------------------COMMENTS-------------------------------": "COMMENTS",
   "COMMENTS": [
     {
-      "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Charlotte-Patin--300x300.jpeg.webp",
-      "name": "Charlotte Patin",
-      "social": "Facebook",
-      "content": "Amazing staff! So thorough and kind. Most relaxing experience of any place around"
+      "data": [
+        {
+          "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Charlotte-Patin--300x300.jpeg.webp",
+          "name": "Charlotte Patin",
+          "social": "Facebook",
+          "content": "Amazing staff! So thorough and kind. Most relaxing experience of any place around"
+        },
+        {
+          "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Latanya-P..jpeg.webp",
+          "name": "Latanya P.",
+          "social": "Yelp",
+          "content": "My daughter’s and I go here. It is very clean, family friendly. They are up to date with the latest trends in nail colors and art."
+        },
+        {
+          "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Amy-Lanfersiek-Green-300x300.jpg.webp",
+          "name": "Connie",
+          "social": "Facebook",
+          "content": "Am in ❤️ with my new St Paddy’s Day nails. Was accommodated very last minute. Very detail oriented yet fast. Jenny is the best. 🍀"
+        },
+        {
+          "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Heather-Weldon-1.png.webp",
+          "name": "Heather Weldon",
+          "social": "Google",
+          "content": "I absolutely love and recommend Nails Kute and Spa. Very clean, professional, and they always go above and beyond to make you feel welcome and appreciated. Excellent quality and the prices are great."
+        }
+      ],
+      "page": 1,
+      "per_page": 4,
+      "total": 4
     },
     {
-      "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Latanya-P..jpeg.webp",
-      "name": "Latanya P.",
-      "social": "Yelp",
-      "content": "My daughter’s and I go here. It is very clean, family friendly. They are up to date with the latest trends in nail colors and art."
-    },
-    {
-      "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Amy-Lanfersiek-Green-300x300.jpg.webp",
-      "name": "Connie",
-      "social": "Facebook",
-      "content": "Am in ❤️ with my new St Paddy’s Day nails. Was accommodated very last minute. Very detail oriented yet fast. Jenny is the best. 🍀"
-    },
-    {
-      "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Heather-Weldon-1.png.webp",
-      "name": "Heather Weldon",
-      "social": "Google",
-      "content": "I absolutely love and recommend Nails Kute and Spa. Very clean, professional, and they always go above and beyond to make you feel welcome and appreciated. Excellent quality and the prices are great."
+      "data": [
+        {
+          "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Mariana-I..jpeg.webp",
+          "name": "Mariana I.",
+          "social": "Yelp",
+          "content": "These are the nails that I requested and they did a superior job! My lady was very nice and took her time doing my nails. I also got a pedicure and it was not rushed at all. Very relaxing. This is my go to salon now!"
+        },
+        {
+          "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Keisha-Y.-1.jpeg.webp",
+          "name": "Keisha Y.",
+          "social": "Yelp",
+          "content": "Today was a real win for me! I wanted to try this new place because the last place I went to was a disappointment. I got a Luxury pedicure which was very good and relaxing. I also got my dip redone. It was only my second time getting the dip, but the first time was so thick and ugly I was hesitant. I ended up LOVING my nails… they are natural by the way but on a total stroke of luck, I found Ben who I thought did the most amazing pedi ever when I got to Jacksonville four years ago in a completely different location. Turns out he is a perfectionist in everything. BEN IS AMAZING and I won’t lose him again! I’m one happy client."
+        },
+        {
+          "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Amanda-W-King-300x300.jpg.webp",
+          "name": "Amanda W King",
+          "social": "Facebook",
+          "content": "I asked for my daughter and I both to have a spa pedicure and mine lasted for over an hour and hers lasted for less than 15 minutes but they still charged us the same price when I said something to the owner he didn’t seem to care. Been going for a while but won’t be back."
+        },
+        {
+          "avatar": "https://vnailweb.com/wp-content/uploads/2021/04/Lauren-Wagner-.png.webp",
+          "name": "Lauren Wagner",
+          "social": "Google",
+          "content": "The best nail salon ever! I drive from Avondale/Riverside to get my nails done here. Nails Kute & Spa is so quiet and relaxing it’s the perfect place to unwind. I have Ben do my nails, but I have had my nails done by Jenny too. Both Ben and Jenny are meticulous with their work and your nails look perfect by the time you’re done. I’m always so impressed and happy with the quality of work the salon provides!"
+        }
+      ],
+      "page": 2,
+      "per_page": 4,
+      "total": 4
     }
   ]
 }
