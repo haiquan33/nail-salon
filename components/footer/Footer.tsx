@@ -37,17 +37,13 @@ export const Footer = (props: any) => {
 
                 {/*Social Icons*/ }
                 <div id="social-links" className="flex justify-center gap-14 mb-10">
-                    <FacebookFilled
-                        href={ FB_LINK }
-                        target="_blank"
-                        className="text-4xl text-red-600"
-                    />
+                    <a href={ FB_LINK } target="_blank">
+                        <FacebookFilled className="text-4xl text-red-600"/>
+                    </a>
 
-                    <InstagramFilled
-                        href={ INSTAGRAM_LINK }
-                        target="_blank"
-                        className="text-4xl text-red-600"
-                    />
+                    <a href={ INSTAGRAM_LINK } target="_blank">
+                        <InstagramFilled className="text-4xl text-red-600"/>
+                    </a>
 
                     <a rel="nofollow" target="_blank"
                        href={ YELP_LINK }
@@ -56,11 +52,9 @@ export const Footer = (props: any) => {
                         <img width="36" height="36" src="/icons/yelp-logo.svg" alt="Yelp logo"/>
                     </a>
 
-                    <GooglePlusSquareFilled
-                        href={ GOOGLE_LINK }
-                        target="_blank"
-                        className="text-4xl text-red-600"
-                    />
+                    <a href={ GOOGLE_LINK } target="_blank">
+                        <GooglePlusSquareFilled className="text-4xl text-red-600"/>
+                    </a>
                 </div>
 
                 {/*Contact Info*/ }
@@ -77,7 +71,11 @@ export const Footer = (props: any) => {
                         </p>
 
                         <p className="flex">
-                            <a target="_blank" href="https://g.page/nailskutespa32003?share">
+                            <a
+                                href="https://g.page/nailskutespa32003?share"
+                                target="_blank"
+                                className="hover:text-white"
+                            >
                                 4685 US-17 Suite 1, Fleming Island, FL 32003
                             </a>
                         </p>

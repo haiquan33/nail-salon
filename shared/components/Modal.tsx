@@ -27,4 +27,4 @@ export const Modal = ({ visible, data, setVisible }: any) => {
 
         <GridMenu data={ products }/>
     </AntdModal>;
-}
+};

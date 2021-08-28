@@ -5,8 +5,13 @@ import { CSSProperties } from 'react';
 import { ImageOptions } from 'typings';
 import { matchScreen, MIN_WIDTH_640 } from 'utils';
 
-export const GridGallery = ({ data }: { data: IWorkPagination[] }) => {
-    const IMAGES = data.find(item => item.page === 1)?.works.map(item => (
+interface IGridGalleryProps {
+    data: IWorkPagination[];
+    page: number;
+}
+
+export const GridGallery = ({ data, page }: IGridGalleryProps) => {
+    const IMAGES = data.find(item => item.page === page)?.works.map(item => (
         {
             src: item,
             thumbnail: item,

@@ -1,5 +1,5 @@
 import { IComment } from 'types';
-import { PageHeader } from 'shared';
+import { PageHeader, ShowMore } from 'shared';
 import { Avatar, Comment, Rate } from 'antd';
 import staticData from 'static/assets/data.json';
 
@@ -38,11 +38,7 @@ export const Review = (props: any) => {
                 { item }
             </div>
 
-            <div className="flex justify-center">
-                <a className="block hover:text-white hover:underline sm:text-lg underline font-light">
-                    Show More
-                </a>
-            </div>
+            <ShowMore/>
         </div>
     </section>;
 };

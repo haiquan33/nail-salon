@@ -1,9 +1,6 @@
-import { CSSProperties } from 'react';
+import { CSSProperties, HTMLProps } from 'react';
 
-export interface IBaseProps {
-    style?: CSSProperties;
-    className?: string;
-
+export interface IBaseProps extends HTMLProps<any> {
     elementStyle?: CSSProperties;
     elementClassName?: string;
 
