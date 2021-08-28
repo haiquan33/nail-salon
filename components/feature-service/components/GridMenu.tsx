@@ -15,7 +15,7 @@ export const GridMenu = ({ data, containerClassName }: IGridMenuProps) => {
                     {/* Thumbnail */ }
                     <div className="sm:mr-2 md:mr-0 lg:mr-2">
                         <div className={ styles.thumb }>
-                            <img src={ item.img } alt={ item.title } className={ styles.img } loading="lazy"/>
+                            <img src={ item.img } alt={ item.title } className={ styles.img }/>
                         </div>
                     </div>
 

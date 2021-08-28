@@ -30,7 +30,6 @@ export const GiftCard = (props: any) => {
                         <img
                             src="https://vnailweb.com/wp-content/uploads/2020/11/Banner-Gift-NAILS-KUTE-SPA-1.jpg"
                             alt="..."
-                            loading="lazy"
                         />
                     </a>
                 </div>

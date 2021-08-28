@@ -11,7 +11,6 @@ export const Banner = (props: any) => {
                 src="https://vnailweb.com/wp-content/uploads/2020/12/Banner-MB-NAILS-KUTE-SPA.jpg.webp"
                 alt="Vendor Banner"
                 className="w-full"
-                loading="lazy"
             />
         </picture>
     </section>

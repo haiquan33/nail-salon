@@ -21,7 +21,7 @@ export const About = (props: any) => {
 
             <div className="sm:flex items-center justify-center">
                 <div className={ styles['flex-item'] }>
-                    <img src="https://vnailweb.com/wp-content/uploads/2020/11/kute.jpg" alt="..." loading="lazy"/>
+                    <img src="https://vnailweb.com/wp-content/uploads/2020/11/kute.jpg" alt="..."/>
                 </div>
 
                 <div className={ `${ styles['flex-item'] } sm:ml-8` }>

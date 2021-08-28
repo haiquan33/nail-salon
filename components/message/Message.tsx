@@ -9,7 +9,6 @@ export const Message = (props: any) => {
                         src="https://vnailweb.com/wp-content/uploads/2020/11/sms.png.webp"
                         alt="..."
                         className={ styles.model }
-                        loading="lazy"
                     />
                 </div>
 

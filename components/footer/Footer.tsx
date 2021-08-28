@@ -36,7 +36,6 @@ export const Footer = (props: any) => {
                     width="120" src="https://vnailweb.com/wp-content/uploads/2020/12/Logo-12.png"
                     alt="..."
                     className="mx-auto logo-footer mb-6"
-                    loading="lazy"
                 />
 
                 {/*Social Icons*/ }
@@ -53,7 +52,7 @@ export const Footer = (props: any) => {
                        href={ YELP_LINK }
                        className="mt-1"
                     >
-                        <img width="36" height="36" src="/icons/yelp-logo.svg" alt="Yelp logo" loading="lazy"/>
+                        <img width="36" height="36" src="/icons/yelp-logo.svg" alt="Yelp logo"/>
                     </a>
 
                     <a href={ GOOGLE_LINK } target="_blank">
