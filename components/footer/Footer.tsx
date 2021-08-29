@@ -7,22 +7,23 @@ import {
     ShopOutlined
 } from '@ant-design/icons';
 import { FB_LINK, GOOGLE_LINK, INSTAGRAM_LINK, YELP_LINK } from 'utils';
+import moment from 'moment';
 
 export const Footer = (props: any) => {
     const weekDays = [
-        { date: 'Monday', open: 'Closed' },
-        { date: 'Tuesday', open: '09:30 - 19:30' },
-        { date: 'Wednesday', open: '09:30 - 19:30' },
-        { date: 'Thursday', open: '09:30 - 19:30' },
-        { date: 'Friday', open: '09:30 - 19:30' },
-        { date: 'Saturday', open: '09:30 - 19:30' },
-        { date: 'Sunday', open: '12:00 - 18:00' },
+        { date: 'Monday', open: 'Closed', abbr: 'Mon' },
+        { date: 'Tuesday', open: '09:30 - 19:30', abbr: 'Tue' },
+        { date: 'Wednesday', open: '09:30 - 19:30', abbr: 'Wed' },
+        { date: 'Thursday', open: '09:30 - 19:30', abbr: 'Thu' },
+        { date: 'Friday', open: '09:30 - 19:30', abbr: 'Fri' },
+        { date: 'Saturday', open: '09:30 - 19:30', abbr: 'Sat' },
+        { date: 'Sunday', open: '12:00 - 18:00', abbr: 'Sun' },
     ];
-    const today = new Date().getUTCDay();
-    const item = weekDays.map(({ date, open }, index) => {
+    const today = moment().format('ddd');
+    const item = weekDays.map(({ date, open, abbr }, index) => {
         return <div
             key={ index + 1 }
-            className={ `flex justify-between p-2 mb-2 ${ today === index + 2 ? 'border border-red-600' : '' }` }
+            className={ `flex justify-between p-2 mb-2 ${ today === abbr ? 'border border-red-600' : '' }` }
         >
             <span>{ date }</span>
             <span>{ open }</span>
