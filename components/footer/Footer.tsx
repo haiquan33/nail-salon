@@ -33,7 +33,8 @@ export const Footer = (props: any) => {
         <div className="vnp-bg-primary text-white pt-6 pb-6">
             <div className="container">
                 <img
-                    width="120" src="https://vnailweb.com/wp-content/uploads/2020/12/Logo-12.png"
+                    width="120"
+                    src="/images/nails-kute-logo.png"
                     alt="..."
                     className="mx-auto logo-footer mb-6"
                 />
