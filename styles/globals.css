@@ -29,6 +29,14 @@ a {
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Viceroy';
+    src: url('public/fonts/ViceroyJF.ttf');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
 /* Utils class */
 .bg-red {
     background: #b30a0c !important;
@@ -44,6 +52,10 @@ a {
 
 .font-roboto-thin {
     font-family: "Roboto Thin", sans-serif;
+}
+
+.font-viceroy {
+    font-family: Viceroy, sans-serif;
 }
 
 .robo_head {

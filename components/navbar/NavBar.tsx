@@ -44,7 +44,7 @@ export const NavBar = (props: any) => {
                 <div className={ `${ styles.logo }` }>
                     <a href="https://vnailweb.com/nail-salon-near-me-nails-kute-spa-fleming-island-fl-32003/">
                         <img
-                            src="https://vnailweb.com/wp-content/uploads/2020/12/Logo-12.png"
+                            src="/images/nails-kute-logo.png"
                             alt="App logo"
                             className={ styles.logoImg }
                         />

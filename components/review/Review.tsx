@@ -26,7 +26,7 @@ export const Review = (props: any) => {
                         <span>{ comment.name }</span>
                         <span className="font-thin">{ comment.social }</span>
                     </a>
-                    <Rate className="text-white" value={ 5 }/>
+                    <Rate className="text-white text-sm sm:text-lg" value={ 5 }/>
                 </div>
                 }
                 content={ <p className="text-white text-lg font-light italic">{ comment.content }</p> }

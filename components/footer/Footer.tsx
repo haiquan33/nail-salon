@@ -7,22 +7,23 @@ import {
     ShopOutlined
 } from '@ant-design/icons';
 import { FB_LINK, GOOGLE_LINK, INSTAGRAM_LINK, YELP_LINK } from 'utils';
+import moment from 'moment';
 
 export const Footer = (props: any) => {
     const weekDays = [
-        { date: 'Monday', open: 'Closed' },
-        { date: 'Tuesday', open: '09:30 - 19:30' },
-        { date: 'Wednesday', open: '09:30 - 19:30' },
-        { date: 'Thursday', open: '09:30 - 19:30' },
-        { date: 'Friday', open: '09:30 - 19:30' },
-        { date: 'Saturday', open: '09:30 - 19:30' },
-        { date: 'Sunday', open: '12:00 - 18:00' },
+        { date: 'Monday', open: 'Closed', abbr: 'Mon' },
+        { date: 'Tuesday', open: '09:30 - 19:30', abbr: 'Tue' },
+        { date: 'Wednesday', open: '09:30 - 19:30', abbr: 'Wed' },
+        { date: 'Thursday', open: '09:30 - 19:30', abbr: 'Thu' },
+        { date: 'Friday', open: '09:30 - 19:30', abbr: 'Fri' },
+        { date: 'Saturday', open: '09:30 - 19:30', abbr: 'Sat' },
+        { date: 'Sunday', open: '12:00 - 18:00', abbr: 'Sun' },
     ];
-    const today = new Date().getUTCDay();
-    const item = weekDays.map(({ date, open }, index) => {
+    const today = moment().format('ddd');
+    const item = weekDays.map(({ date, open, abbr }, index) => {
         return <div
             key={ index + 1 }
-            className={ `flex justify-between p-2 mb-2 ${ today === index + 2 ? 'border border-red-600' : '' }` }
+            className={ `flex justify-between p-2 mb-2 ${ today === abbr ? 'border border-red-600' : '' }` }
         >
             <span>{ date }</span>
             <span>{ open }</span>
@@ -33,10 +34,10 @@ export const Footer = (props: any) => {
         <div className="vnp-bg-primary text-white pt-6 pb-6">
             <div className="container">
                 <img
-                    width="120" src="https://vnailweb.com/wp-content/uploads/2020/12/Logo-12.png"
+                    width="120"
+                    src="/images/nails-kute-logo.png"
                     alt="..."
                     className="mx-auto logo-footer mb-6"
-                    loading="lazy"
                 />
 
                 {/*Social Icons*/ }
@@ -53,7 +54,7 @@ export const Footer = (props: any) => {
                        href={ YELP_LINK }
                        className="mt-1"
                     >
-                        <img width="36" height="36" src="/icons/yelp-logo.svg" alt="Yelp logo" loading="lazy"/>
+                        <img width="36" height="36" src="/icons/yelp-logo.svg" alt="Yelp logo"/>
                     </a>
 
                     <a href={ GOOGLE_LINK } target="_blank">

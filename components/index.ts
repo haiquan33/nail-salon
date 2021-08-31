@@ -11,3 +11,5 @@ export * from './message';
 export * from './review';
 export * from './footer';
 export * from './booking';
+export * from './reward';
+export * from './policy';

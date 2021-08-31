@@ -85,7 +85,6 @@ export const Slick = (
                     src={ item.img }
                     alt={ item.title }
                     className={ `${ elementClassName }` }
-                    loading="lazy"
                 />
             </div>
 
