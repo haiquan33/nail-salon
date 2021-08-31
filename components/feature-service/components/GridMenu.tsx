@@ -1,4 +1,4 @@
-import { Badge, Tag } from 'antd';
+import { Badge, Popover, Tag } from 'antd';
 import { IBaseProps, IFeatureProduct } from 'types';
 import { DollarOutlined } from '@ant-design/icons';
 import styles from 'styles/components/FeatureService.module.css';
@@ -9,7 +9,7 @@ interface IGridMenuProps extends IBaseProps {
 
 export const GridMenu = ({ data, containerClassName }: IGridMenuProps) => {
     const element = data.map((item, index: number) => {
-        return <div key={ index + 1 } className="mb-6 lg:ml-10">
+        const ele = <div key={ index + 1 } className="mb-6 lg:ml-10">
             <Badge.Ribbon text={ item.type } color="black" className="hidden sm:block">
                 <div className="flex gap-4">
                     {/* Thumbnail */ }
@@ -39,7 +39,45 @@ export const GridMenu = ({ data, containerClassName }: IGridMenuProps) => {
                     </div>
                 </div>
             </Badge.Ribbon>
-        </div>
+        </div>;
+
+        const popTitle = (item: IFeatureProduct) =>
+            <div className="flex justify-between text-2xl text-red-600">
+                <div className="flex gap-4 font-lobster">
+                    <div className="w-6 h-6 mt-1 bg-red-600 border rounded-full"/>
+                    { item?.title }
+                </div>
+                <span className="font-lobster">${ item?.price }</span>
+            </div>;
+
+        const popContent = (item: IFeatureProduct) => {
+            return <div className="text-sm text-white font-thin">
+                {
+                    item.title === 'Luxury Pedicure'
+                        ? <>
+                            <span className="font-bold italic">
+                            [Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid, Melon Mango, Magnolia
+                            Lychee Raspberry, French Lavender, Jasmine, Mother Of Pearl, Vervain].
+                        </span> { item.popContent }
+                        </>
+                        : item.popContent
+                }
+            </div>;
+        }
+
+        return item?.popContent
+            ? <Popover
+                key={ index + 1 }
+                placement="bottom"
+                overlayInnerStyle={ { background: '#383838', borderRadius: '10px' } }
+                overlayStyle={ { maxWidth: '450px' } }
+                title={ () => popTitle(item) }
+                content={ () => popContent(item) }
+                trigger="click"
+            >
+                { ele }
+            </Popover>
+            : ele
     });
 
     return <div className={ `sm:grid lg:grid-cols-2 gap-4 ${ containerClassName }` }>

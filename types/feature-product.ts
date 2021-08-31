@@ -4,4 +4,5 @@ export interface IFeatureProduct {
     type: string;
     description: string;
     img: string;
+    popContent?: string;
 }
