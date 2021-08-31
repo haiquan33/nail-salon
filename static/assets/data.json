@@ -11,6 +11,34 @@
     "CONTACT"
   ],
 
+  "--------------------------------------REWARDS-------------------------------": "SALON_MENU",
+  "REWARDS": [
+    {
+      "title": "Keep sign in POSAPP!",
+      "description": "Join our Rewards Program and get 100 points on your initial purchase by signing in on POSAPP! We ensure that you won't be spammed with unwanted advertisements, emails, or text messages from us, and we will keep your information confidential. Your information will be utilized for identification purposes only and will be used to notify you when needed. 100 points are only available for new Rewards Program members and will be not applicable to other promotions"
+    },
+    {
+      "title": "Benefits of Rewards Program members:",
+      "description": [
+        "Get 100 points when you sign up.",
+        "Get 10% Birthday Discount during your birthday week.",
+        "Refer 5 friends to get a free spa pedicure, and your friends will also get a 5% discount on their first time visit with a referral card with your name on it. For every $1 you spend at our salon in services you earn 1 loyalty point, and you receive a $10 off for every 500 points you receive. You can also save up to 1500 points to get a free deluxe pedicure worth $45.",
+        "Get email and text message on your appointment.",
+        "Get an email and a text message on active promotions.",
+        "Get all your spa receipts by email.",
+        "Enjoy our 5-Day Worry Free Guarantee."
+      ]
+    },
+    {
+      "title": "Terms and Conditions:",
+      "description": [
+        "Your discounts can be applied to your services only. They are not transferable.",
+        "Discounts cannot be combined with any other promotions.",
+        "You have to sign up with POSAPP to get points!"
+      ]
+    }
+  ],
+
   "--------------------------------------SALON_MENU-------------------------------": "SALON_MENU",
   "SALON_MENU_IMAGES": [
     {
@@ -93,35 +121,40 @@
           "price": "30",
           "type": "Pedicure",
           "description": "Enjoy our Gel Manicure with a relaxing atmosphere...",
-          "img": "/images/salon-menu/pedicure/gel-manicure.jpeg"
+          "img": "/images/salon-menu/pedicure/gel-manicure.jpeg",
+          "popContent": ""
         },
         {
           "title": "Luxury Pedicure",
           "price": "65",
           "type": "Pedicure",
           "description": "Scent options from Voesh Pedi-in-a-box Luxury 4-in-1 Kit:...",
-          "img": "/images/salon-menu/pedicure/luxury-pedicure.jpeg"
+          "img": "/images/salon-menu/pedicure/luxury-pedicure.jpeg",
+          "popContent": "Introducing Voesh Collagen Socks that keeps your feet soft for a week! Service includes shaping of your nails, cuticle & callus removal. Experience the refreshing and exfoliating sugar scrub, foot mask, hot towels, paraffin wax, hot stone, collagen sock with lotion massage and polish. Now isn’t that luxury experience indeed?!"
         },
         {
           "title": "Deluxe Pedicure",
           "price": "45",
           "type": "Pedicure",
           "description": "The Deluxe Pedicure includes the shaping of your...",
-          "img": "/images/salon-menu/pedicure/deluxe-pedicure.jpeg"
+          "img": "/images/salon-menu/pedicure/deluxe-pedicure.jpeg",
+          "popContent": "The deluxe pedicure experience includes shaping of your nails, cuticle & callus removal. A refreshing and exfoliating OPI sugar scrub removes all dead skin. A OPI mud mask and hot towel wrap with paraffin wax, hot stone and OPI lotion foot massage ensures that your feet are relaxed and replenished. Top off the experience with the polish of your choice!"
         },
         {
           "title": "Spa Pedicure",
           "price": "30",
           "type": "Pedicure",
           "description": "This service includes the shaping of your nails...",
-          "img": "/images/salon-menu/pedicure/spa-pedicure.png"
+          "img": "/images/salon-menu/pedicure/spa-pedicure.png",
+          "popContent": "This service includes shaping of your nails, cuticle & callus removal. It also includes a refreshing and exfoliating honey sugar scrub. Along with a foot massage, hot towels and polish, this is all you need for a relaxing time."
         },
         {
           "title": "Classic Pedicure",
           "price": "25",
           "type": "Pedicure",
           "description": "Relax while we shape your nails, treat your...",
-          "img": "/images/salon-menu/pedicure/classic-pedicure.jpeg"
+          "img": "/images/salon-menu/pedicure/classic-pedicure.jpeg",
+          "popContent": "Relax while we take care of the shaping of your nails, cuticle & callus removal, after which we will give you a lotion massage, hot towels and finally put polish, all at an affordable price of $25."
         }
       ]
     },
@@ -408,69 +441,6 @@
       "type": "Nail Enhancement",
       "description": "Classic Nail Enhancement Services",
       "img": "/images/products/full-set-pink-white.webp"
-    },
-    {
-      "title": "Japanese Cherry Blossom",
-      "price": "65",
-      "type": "Skin Care",
-      "description": "Always beautiful. Cherry blossom is rich in essential fatty acids; it repairs the skins natural barriers to promote smooth, supple skin.",
-      "img": "/images/products/japanese-cherry-blossom.png"
-    },
-    {
-      "title": "Hawaii Citrus",
-      "price": "65",
-      "type": "Skin Care",
-      "description": "Never enough Glow. Citrus helps destroy free radicals in your skin and provides a radiant glow to your skin.",
-      "img": "/images/products/hawaii-citrus.png"
-    },
-    {
-      "title": "Peony Orchid",
-      "price": "65",
-      "type": "Skin Care",
-      "description": "Perfect flowers for the skin. Peony & Orchid contain an antioxidant power to boost the immunity of the skin, reduce fine lines, signs of aging and soothes the skin.",
-      "img": "/images/products/peony-orchid.png"
-    },
-    {
-      "title": "Melon Mango",
-      "price": "65",
-      "type": "Skin Care",
-      "description": "Amazing benefits to skin care. Melon Mango contains both Vitamin C and Copper, they promote healthy skin by aiding collagen production and tissue repair.",
-      "img": "/images/products/melon-mango.png"
-    },
-    {
-      "title": "Magnolia Lychee Raspberry",
-      "price": "65",
-      "type": "Skin Care",
-      "description": "Fabulous sexy skin. Magnolia Lychee Raspberry is Anti-Aging and Anti-Wrinkle helping to repair fine lines and the start of wrinkles.",
-      "img": "/images/products/red-carpet.png"
-    },
-    {
-      "title": "French Lavender",
-      "price": "65",
-      "type": "Skin Care",
-      "description": "Lavender has been rising in popularity for relaxation purposes and has always been a favorite. An Anti-inflammatory superstar helping to soothe skin, heal and moisturize for a glowing, younger complexion.",
-      "img": "/images/products/french-lavender.png"
-    },
-    {
-      "title": "Jasmine",
-      "price": "65",
-      "type": "Skin Care",
-      "description": "Natural lovely scent. It rejuvenates, nourishes skin, and helps to slow down the aging process by eliminating free radicals that can cause wrinkles and skin damage.",
-      "img": "/images/products/tea-party.png"
-    },
-    {
-      "title": "Mother Of Pearl",
-      "price": "65",
-      "type": "Skin Care",
-      "description": "The secret to perfection. It brightens your skin creating high luminosity and visibly minimize irregularities.",
-      "img": "/images/products/mother-of-pearl.png"
-    },
-    {
-      "title": "Vervain",
-      "price": "65",
-      "type": "Skin Care",
-      "description": "Vervain (Summer Renew!) The Summer flower that contains a magical healing power to helps inducing calmness, relaxation, and overcome respiratory problems. Vervain is also an Antibacterial helps heal wounds and relieves skin discomfort.",
-      "img": "/images/products/vervain.png"
     }
   ],
 
@@ -812,5 +782,19 @@
       "per_page": 4,
       "total": 4
     }
+  ],
+
+  "--------------------------------------POLICY-------------------------------": "COMMENTS",
+  "POLICIES": [
+    "- K Nail is equipped with the highest quality of products and services for your salon experience. Our licensed, well trained staff is dedicated to providing custom treatment based on your wants and needs within your scheduled service time, if you are dissatisfied with any of our work, we will be happy to redo the service, the same day.",
+    "- Our nail care tools and pedicure spa tubs are thoroughly sanitized and/or disposed after each use.",
+    "- For your complete relaxation and also out of consideration for other clients, we request you to please mute cell phones. Please also keep all phone calls to a minimum. This is to ensure a pleasant service to all.",
+    "- We encourage you to arrive at least 10 minutes prior to your appointment. This will allow you plenty of time to park your car and check in. If you are a first time client, you may be asked to fill out a profile card.",
+    "- We accept Cash, and all major credit cards included Visa and Mastercard. Minimum transaction for credit card is $10.",
+    "- Gift cards are available for sale. It cannot be exchanged or returned.",
+    "- Customers will be solely responsible for any personal items that they bring.",
+    "- We reserve the right to not offer our services to people who may be considered rude or come with a bad attitude.",
+    "- We do not give refunds or allow exchanges for any services performed or gift voucher. If you are unsatisfied with our service, please speak with the manager immediately and we will do our best to remedy the situation.",
+    "- Our complimentary beverages are soda, water or wine. Alcohol will only be served for age of 21 or older. "
   ]
 }

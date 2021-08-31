@@ -14,7 +14,9 @@ import {
     Menu,
     Message,
     NavBar,
-    Review
+    Policy,
+    Review,
+    Reward
 } from 'components';
 
 const Home: NextPage = () => {
@@ -35,6 +37,9 @@ const Home: NextPage = () => {
 
             {/* About us section */ }
             <About/>
+
+            {/* Reward */ }
+            <Reward/>
 
             {/* Salon Menu section */ }
             <Menu/>
@@ -59,6 +64,9 @@ const Home: NextPage = () => {
 
             {/* Review */ }
             <Review/>
+
+            {/* Policy */ }
+            <Policy/>
 
             {/* Footer */ }
             <Footer/>
