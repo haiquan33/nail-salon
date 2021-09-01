@@ -128,7 +128,7 @@
           "title": "Luxury Pedicure",
           "price": "65",
           "type": "Pedicure",
-          "description": "Scent options from Voesh Pedi-in-a-box Luxury 4-in-1 Kit:...",
+          "description": "Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid...",
           "img": "/images/salon-menu/pedicure/luxury-pedicure.jpeg",
           "popContent": "Introducing Voesh Collagen Socks that keeps your feet soft for a week! Service includes shaping of your nails, cuticle & callus removal. Experience the refreshing and exfoliating sugar scrub, foot mask, hot towels, paraffin wax, hot stone, collagen sock with lotion massage and polish. Now isn’t that luxury experience indeed?!"
         },
@@ -244,8 +244,9 @@
           "title": "Luxury Manicure",
           "price": "40",
           "type": "Manicure",
-          "description": "Scent options from Voesh Pedi-in-a-box luxury 4-in-1 Kit:...",
-          "img": "/images/salon-menu/manicure/luxury-manicure.png"
+          "description": "Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid...",
+          "img": "/images/salon-menu/manicure/luxury-manicure.png",
+          "popContent": "Introducing Voesh Collagen Socks that keeps your feet soft for a week! Service includes shaping of your nails, cuticle & callus removal. Experience the refreshing and exfoliating sugar scrub, foot mask, hot towels, paraffin wax, hot stone, collagen sock with lotion massage and polish. Now isn’t that luxury experience indeed?!"
         },
         {
           "title": "Deluxe Manicure",
