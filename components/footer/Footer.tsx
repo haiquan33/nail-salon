@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import {
     ClockCircleOutlined,
     FacebookFilled,
@@ -42,22 +43,22 @@ export const Footer = (props: any) => {
 
                 {/*Social Icons*/ }
                 <div id="social-links" className="flex justify-center gap-14 mb-10">
-                    <a href={ FB_LINK } target="_blank">
+                    <a href={ FB_LINK } target="_blank" rel="noreferrer">
                         <FacebookFilled className="text-4xl text-red-600"/>
                     </a>
 
-                    <a href={ INSTAGRAM_LINK } target="_blank">
+                    <a href={ INSTAGRAM_LINK } target="_blank" rel="noreferrer">
                         <InstagramFilled className="text-4xl text-red-600"/>
                     </a>
 
-                    <a rel="nofollow" target="_blank"
+                    <a rel="noreferrer" target="_blank"
                        href={ YELP_LINK }
                        className="mt-1"
                     >
-                        <img width="36" height="36" src="/icons/yelp-logo.svg" alt="Yelp logo"/>
+                        <Image width={ 36 } height={ 36 } src="/icons/yelp-logo.svg" alt="Yelp logo"/>
                     </a>
 
-                    <a href={ GOOGLE_LINK } target="_blank">
+                    <a href={ GOOGLE_LINK } target="_blank" rel="noreferrer">
                         <GooglePlusSquareFilled className="text-4xl text-red-600"/>
                     </a>
                 </div>
@@ -76,10 +77,10 @@ export const Footer = (props: any) => {
                         </p>
 
                         <p className="flex">
-                            <a
-                                href="https://g.page/nailskutespa32003?share"
-                                target="_blank"
-                                className="hover:text-white"
+                            <a className="hover:text-white"
+                               href="https://g.page/nailskutespa32003?share"
+                               target="_blank"
+                               rel="noreferrer"
                             >
                                 4685 US-17 Suite 1, Fleming Island, FL 32003
                             </a>
@@ -133,7 +134,8 @@ export const Footer = (props: any) => {
         </div>
 
         <div className="text-center text-red-600 py-3 text-white bg-white">
-            Copyright © 2021 <a href="https://vnailpro.com">VNailPro Inc</a>. All Right Reserved
+            Copyright © 2021 <a href="https://vnailpro.com" target="_blank" rel="noreferrer">VNailPro Inc</a>. All Right
+            Reserved
         </div>
     </footer>;
 };

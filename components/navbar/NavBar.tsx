@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Layout, Menu } from 'antd';
 import styles from 'styles/components/NavBar.module.css';
 import staticData from 'static/assets/data.json';
@@ -44,11 +45,13 @@ export const NavBar = (props: any) => {
                 <div className={ `${ styles.logo }` }>
                     <a href="https://vnailweb.com/nail-salon-near-me-nails-kute-spa-fleming-island-fl-32003/"
                        target="_blank"
+                       rel="noreferrer"
                     >
-                        <img
+                        <Image
                             src="/images/nails-kute-logo.png"
                             alt="App logo"
-                            className={ styles.logoImg }
+                            width={ 45 }
+                            height={ 45 }
                         />
                     </a>
                 </div>
