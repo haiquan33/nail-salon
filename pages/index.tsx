@@ -1,23 +1,6 @@
-import type { NextPage } from 'next';
 import Head from 'next/head';
-import React from 'react';
-import {
-    About,
-    Banner,
-    Booking,
-    Brand,
-    FAQ,
-    FeatureService,
-    Footer,
-    Gallery,
-    GiftCard,
-    Menu,
-    Message,
-    NavBar,
-    Policy,
-    Review,
-    Reward
-} from 'components';
+import { Landing } from './landing';
+import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
     return (
@@ -29,50 +12,7 @@ const Home: NextPage = () => {
                 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
             </Head>
 
-            {/* Nav bar section */ }
-            <NavBar/>
-
-            {/* Banner section */ }
-            <Banner/>
-
-            {/* About us section */ }
-            <About/>
-
-            {/* Reward */ }
-            <Reward/>
-
-            {/* Salon Menu section */ }
-            <Menu/>
-
-            {/* Feature products section */ }
-            <FeatureService/>
-
-            {/* Brand */ }
-            <Brand/>
-
-            {/* Gallery */ }
-            <Gallery/>
-
-            {/* GiftCard */ }
-            <GiftCard/>
-
-            {/* FAQ */ }
-            <FAQ/>
-
-            {/* Message */ }
-            <Message/>
-
-            {/* Review */ }
-            <Review/>
-
-            {/* Policy */ }
-            <Policy/>
-
-            {/* Footer */ }
-            <Footer/>
-
-            {/* Booking */ }
-            <Booking/>
+            <Landing/>
         </div>
     );
 }

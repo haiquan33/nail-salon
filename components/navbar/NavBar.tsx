@@ -42,7 +42,9 @@ export const NavBar = (props: any) => {
             <AntdHeader className="flex justify-around">
                 {/*App logo*/}
                 <div className={ `${ styles.logo }` }>
-                    <a href="https://vnailweb.com/nail-salon-near-me-nails-kute-spa-fleming-island-fl-32003/">
+                    <a href="https://vnailweb.com/nail-salon-near-me-nails-kute-spa-fleming-island-fl-32003/"
+                       target="_blank"
+                    >
                         <img
                             src="/images/nails-kute-logo.png"
                             alt="App logo"
