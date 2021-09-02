@@ -17,7 +17,7 @@ import {
     Reward
 } from 'components';
 
-export const Landing = (props: any) => {
+const Landing = (props: any) => {
     return <>
         {/* Nav bar section */ }
         <NavBar/>
@@ -65,3 +65,5 @@ export const Landing = (props: any) => {
         <Booking/>
     </>
 }
+
+export default Landing;
