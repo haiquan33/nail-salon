@@ -9,8 +9,8 @@ const Home: NextPage = () => {
             <Head>
                 <title>Nails Kute & Spa of Fleming Island FL 32003 - Best Nail Salon Near Me</title>
                 <link rel="icon" href="/favicon.ico"/>
-                <link href="https://fonts.googleapis.com/css?family=Lobster&display=optional" rel="stylesheet"/>
-                <link href="https://fonts.googleapis.com/css?family=Roboto&display=optional" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
             </Head>
 
             <Landing/>
