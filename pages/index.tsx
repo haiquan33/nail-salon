@@ -4,13 +4,13 @@ import Landing from './landing';
 import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
+    const title = 'Nails Kute & Spa of Fleming Island FL 32003 - Best Nail Salon Near Me';
+
     return (
         <div className="">
             <Head>
-                <title>Nails Kute & Spa of Fleming Island FL 32003 - Best Nail Salon Near Me</title>
+                <title>{ title }</title>
                 <link rel="icon" href="/favicon.ico"/>
-                <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"/>
-                <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
             </Head>
 
             <Landing/>

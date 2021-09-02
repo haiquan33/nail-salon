@@ -7,8 +7,8 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <link rel="icon" href="/favicon.ico"/>
-                    <link href="https://fonts.googleapis.com/css?family=Lobster&display=optional" rel="stylesheet"/>
-                    <link href="https://fonts.googleapis.com/css?family=Roboto&display=optional" rel="stylesheet"/>
+                    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"/>
+                    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
                 </Head>
 
                 <body>
