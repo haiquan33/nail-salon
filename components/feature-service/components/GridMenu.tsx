@@ -53,7 +53,7 @@ export const GridMenu = ({ data, containerClassName }: IGridMenuProps) => {
         const popContent = (item: IFeatureProduct) => {
             return <div className="text-sm text-white font-thin">
                 {
-                    item.title === 'Luxury Pedicure'
+                    item.title === 'Luxury Pedicure' || item.title==='Luxury Manicure'
                         ? <>
                             <span className="font-bold italic">
                             [Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid, Melon Mango, Magnolia
