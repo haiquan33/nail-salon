@@ -246,7 +246,7 @@
           "type": "Manicure",
           "description": "Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid...",
           "img": "/images/salon-menu/manicure/luxury-manicure.png",
-          "popContent": "Service includes shaping of your nails, cuticle & callus removal. Experience the refreshing and exfoliating sugar scrub, foot mask, hot towels, paraffin wax, hot stone, collagen gloves with lotion massage and polish. Now isn’t that luxury experience indeed?!"
+          "popContent": "Service includes shaping of your nails, cuticle & callus removal. Experience the refreshing and exfoliating sugar scrub, hot towels, paraffin wax, hot stone, collagen gloves with lotion massage and polish. Now isn’t that luxury experience indeed?!"
         },
         {
           "title": "Deluxe Manicure",
@@ -449,23 +449,7 @@
   "BRANDS": [
     {
       "title": "",
-      "img": "/images/brands/tammy-taylor.webp"
-    },
-    {
-      "title": "",
-      "img": "/images/brands/essie.webp"
-    },
-    {
-      "title": "",
       "img": "/images/brands/opi.webp"
-    },
-    {
-      "title": "",
-      "img": "/images/brands/gelish.webp"
-    },
-    {
-      "title": "",
-      "img": "/images/brands/shellac.webp"
     },
     {
       "title": "",
@@ -715,7 +699,7 @@
     },
     {
       "question": "How to book an appointment online?",
-      "answer": "Book your appointment by sending a notice to the salon manager’s email. Please mention your name, phone number, and the service(s) required. We will respond to you and confirm your appointment."
+      "answer": "Book your appointment by clicking on the Booking button. Please mention your name, phone number, and the service(s) required. We will respond to you and confirm your appointment."
     }
   ],
 
