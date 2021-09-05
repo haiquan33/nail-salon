@@ -56,8 +56,9 @@ export const GridMenu = ({ data, containerClassName, animation = true }: IGridMe
                 <span className="font-lobster">${ item?.price }</span>
             </div>;
 
-        const scents = `[Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid, Melon Mango, Magnolia Lychee Raspberry, French Lavender, Jasmine, Mother Of Pearl, Vervain].`;
         const popContent = (item: IFeatureProduct) => {
+            const scents = `[Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid, Melon Mango, Magnolia Lychee Raspberry, French Lavender, Jasmine, Mother Of Pearl, Vervain].`;
+
             return <div className="text-sm text-white font-thin">
                 {
                     item.title === 'Luxury Pedicure' || item.title === 'Luxury Manicure'
