@@ -7,7 +7,12 @@ export const Policy = (props: any) => {
     const data: string[] = staticData.POLICIES;
 
     const item = data.map((text, index) =>
-        <li key={ index + 1 } className="pb-4 sm:list-disc">
+        <li
+            key={ index + 1 }
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            className="pb-4 sm:list-disc"
+        >
             { text }
         </li>
     );

@@ -10,6 +10,7 @@ export const Banner = (props: any) => {
             <img
                 src="/images/banner-mb.webp"
                 alt="Vendor Banner"
+                data-aos="zoom-in"
                 className="w-full"
             />
         </picture>

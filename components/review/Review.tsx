@@ -1,5 +1,5 @@
 import { Pagination, randomNumber } from 'utils';
-import { IComment, IPagination } from 'types';
+import { AnimationType, IComment, IPagination } from 'types';
 import { PageHeader, ShowMore } from 'shared';
 import { Avatar, Comment, Rate } from 'antd';
 import staticData from 'static/assets/data.json';
@@ -12,8 +12,13 @@ export const Review = (props: any) => {
     const item = data
         .filter(({ page }) => pages.includes(page)) // Filter only on showing pages
         .flatMap(({ data }) => data.map((comment, index) => {
+            const fadeDir: AnimationType = (index % 2) === 0 ? 'fade-down-right' : 'fade-down-left';
+            const fadeOffset = (index % 2) === 0 ? '200' : '400';
+
             return <Comment
                 key={ randomNumber(1, 9999999999) }
+                data-aos={ fadeDir }
+                data-aos-offset={ fadeOffset }
                 className="sm:m-10 border-b border-black"
                 avatar={ <Avatar
                     src={ comment.avatar }
