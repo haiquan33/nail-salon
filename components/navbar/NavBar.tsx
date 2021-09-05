@@ -15,7 +15,7 @@ export const NavBar = (props: any) => {
         const href = `#${ item.toLowerCase().replace(' ', '_') }`;
 
         return <Menu.Item key={ key }>
-            <a href={ href } className={ styles['text-red'] }>
+            <a href={ href } className={ `font-lobster text-base ${ styles['text-red'] }` }>
                 { item }
             </a>
         </Menu.Item>;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
     About,
     Banner,
@@ -16,8 +16,17 @@ import {
     Review,
     Reward
 } from 'components';
+import Aos from 'aos';
 
 const Landing = (props: any) => {
+    useEffect(() => {
+        setTimeout(() =>
+            Aos.init({
+                disable: window.innerWidth < 640,
+            })
+        )
+    });
+
     return <>
         {/* Nav bar section */ }
         <NavBar/>

@@ -20,13 +20,12 @@ export const About = (props: any) => {
             <PageHeader text={ title }/>
 
             <div className="sm:flex items-center justify-center">
-                <div className={ styles['flex-item'] }>
-                    <img src="/images/about-nails-kute.jpeg" alt="..."/>
+                <div data-aos="fade-right" data-aos-offset="200" className={ styles['flex-item'] }>
+                    <img src="/images/about-nails-kute.jpeg" alt="About Nails Kute & Spa"/>
                 </div>
 
-                <div className={ `${ styles['flex-item'] } sm:ml-8` }>
-                    <h3 className="text-white text-center text-4xl font-lobster mx-auto mb-3 md:mb-6"
-                    >
+                <div data-aos="fade-left" className={ `${ styles['flex-item'] } sm:ml-8` }>
+                    <h3 className="text-white text-center text-4xl font-lobster mx-auto mb-3 md:mb-6">
                         About Us
                     </h3>
 
