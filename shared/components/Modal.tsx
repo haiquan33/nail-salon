@@ -25,6 +25,6 @@ export const Modal = ({ visible, data, setVisible }: any) => {
             { data?.subTitle }
         </p>
 
-        <GridMenu data={ products }/>
+        <GridMenu data={ products } animation={ false }/>
     </AntdModal>;
 };

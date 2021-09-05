@@ -128,9 +128,9 @@
           "title": "Luxury Pedicure",
           "price": "65",
           "type": "Pedicure",
-          "description": "Scent options from Voesh Pedi-in-a-box Luxury 4-in-1 Kit:...",
+          "description": "Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid...",
           "img": "/images/salon-menu/pedicure/luxury-pedicure.jpeg",
-          "popContent": "Introducing Voesh Collagen Socks that keeps your feet soft for a week! Service includes shaping of your nails, cuticle & callus removal. Experience the refreshing and exfoliating sugar scrub, foot mask, hot towels, paraffin wax, hot stone, collagen sock with lotion massage and polish. Now isn’t that luxury experience indeed?!"
+          "popContent": "Get all of the benefits of hot stone massage, healing herbal neck wrap and collagen sock treatment."
         },
         {
           "title": "Deluxe Pedicure",
@@ -214,7 +214,7 @@
         },
         {
           "title": "Full Set Pink & White",
-          "price": "45",
+          "price": "50",
           "type": "Nail Enhancement",
           "description": "Classic Nail Enhancement Services",
           "img": "/images/salon-menu/nail-enhancement/full-set-pink-white.png"
@@ -244,29 +244,33 @@
           "title": "Luxury Manicure",
           "price": "40",
           "type": "Manicure",
-          "description": "Scent options from Voesh Pedi-in-a-box luxury 4-in-1 Kit:...",
-          "img": "/images/salon-menu/manicure/luxury-manicure.png"
+          "description": "Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid...",
+          "img": "/images/salon-menu/manicure/luxury-manicure.png",
+          "popContent": "Introducing Voesh Collagen Gloves that keep your hand soft for up to a week! This service includes shaping of your nails and cuticle care. Experience the refreshing and exfoliating mud mask, hot towels, paraffin wax, collagen gloves with lotion massage, and the application of polish."
         },
         {
           "title": "Deluxe Manicure",
           "price": "30",
           "type": "Manicure",
           "description": "In this service, we begin by shaping your...",
-          "img": "/images/salon-menu/manicure/deluxe-manicure.png"
+          "img": "/images/salon-menu/manicure/deluxe-manicure.png",
+          "popContent": "In this service, we begin by shaping your nails and grooming and hydrating the cuticles. After a refreshing and exfoliating OPI sugar scrub, the OPI hand mask is put to moisturize your hands. This service also includes a hot towel wrap with paraffin wax, OPI lotion hand massage. The nails are then painted with polish of choice."
         },
         {
           "title": "Spa Manicure",
           "price": "20",
           "type": "Manicure",
           "description": "Relax and unwind all your stress with the...",
-          "img": "/images/salon-menu/manicure/spa-manicure.jpeg"
+          "img": "/images/salon-menu/manicure/spa-manicure.jpeg",
+          "popContent": "Relax and unwind all your stress with this spa manicure. The service includes shaping of your nails and cuticle care. A refreshing and exfoliating honey sugar scrub ensures removal of dead skin. Enjoy the gentle hand massage, as we top off with hot towels & polish."
         },
         {
           "title": "Classic Manicure",
           "price": "15",
           "type": "Manicure",
           "description": "",
-          "img": "/images/salon-menu/manicure/classic-manicure.jpeg"
+          "img": "/images/salon-menu/manicure/classic-manicure.png",
+          "popContent": "The classic manicure service will give you a calming experience. Relax while we shape of your nails, groom your cuticles, give you a lotion massage and finish off with polish."
         }
       ]
     },
@@ -448,23 +452,7 @@
   "BRANDS": [
     {
       "title": "",
-      "img": "/images/brands/tammy-taylor.webp"
-    },
-    {
-      "title": "",
-      "img": "/images/brands/essie.webp"
-    },
-    {
-      "title": "",
       "img": "/images/brands/opi.webp"
-    },
-    {
-      "title": "",
-      "img": "/images/brands/gelish.webp"
-    },
-    {
-      "title": "",
-      "img": "/images/brands/shellac.webp"
     },
     {
       "title": "",
@@ -714,7 +702,7 @@
     },
     {
       "question": "How to book an appointment online?",
-      "answer": "Book your appointment by sending a notice to the salon manager’s email. Please mention your name, phone number, and the service(s) required. We will respond to you and confirm your appointment."
+      "answer": "Book your appointment by clicking on the Booking button. Please mention your name, phone number, and the service(s) required. We will respond to you and confirm your appointment."
     }
   ],
 
@@ -786,15 +774,15 @@
 
   "--------------------------------------POLICY-------------------------------": "COMMENTS",
   "POLICIES": [
-    "- K Nail is equipped with the highest quality of products and services for your salon experience. Our licensed, well trained staff is dedicated to providing custom treatment based on your wants and needs within your scheduled service time, if you are dissatisfied with any of our work, we will be happy to redo the service, the same day.",
-    "- Our nail care tools and pedicure spa tubs are thoroughly sanitized and/or disposed after each use.",
-    "- For your complete relaxation and also out of consideration for other clients, we request you to please mute cell phones. Please also keep all phone calls to a minimum. This is to ensure a pleasant service to all.",
-    "- We encourage you to arrive at least 10 minutes prior to your appointment. This will allow you plenty of time to park your car and check in. If you are a first time client, you may be asked to fill out a profile card.",
-    "- We accept Cash, and all major credit cards included Visa and Mastercard. Minimum transaction for credit card is $10.",
-    "- Gift cards are available for sale. It cannot be exchanged or returned.",
-    "- Customers will be solely responsible for any personal items that they bring.",
-    "- We reserve the right to not offer our services to people who may be considered rude or come with a bad attitude.",
-    "- We do not give refunds or allow exchanges for any services performed or gift voucher. If you are unsatisfied with our service, please speak with the manager immediately and we will do our best to remedy the situation.",
-    "- Our complimentary beverages are soda, water or wine. Alcohol will only be served for age of 21 or older. "
+    "K Nail is equipped with the highest quality of products and services for your salon experience. Our licensed, well trained staff is dedicated to providing custom treatment based on your wants and needs within your scheduled service time, if you are dissatisfied with any of our work, we will be happy to redo the service, the same day.",
+    "Our nail care tools and pedicure spa tubs are thoroughly sanitized and/or disposed after each use.",
+    "For your complete relaxation and also out of consideration for other clients, we request you to please mute cell phones. Please also keep all phone calls to a minimum. This is to ensure a pleasant service to all.",
+    "We encourage you to arrive at least 10 minutes prior to your appointment. This will allow you plenty of time to park your car and check in. If you are a first time client, you may be asked to fill out a profile card.",
+    "We accept Cash, and all major credit cards included Visa and Mastercard. Minimum transaction for credit card is $10.",
+    "Gift cards are available for sale. It cannot be exchanged or returned.",
+    "Customers will be solely responsible for any personal items that they bring.",
+    "We reserve the right to not offer our services to people who may be considered rude or come with a bad attitude.",
+    "We do not give refunds or allow exchanges for any services performed or gift voucher. If you are unsatisfied with our service, please speak with the manager immediately and we will do our best to remedy the situation.",
+    "Our complimentary beverages are soda, water or wine. Alcohol will only be served for age of 21 or older. "
   ]
 }

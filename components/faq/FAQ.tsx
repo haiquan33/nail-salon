@@ -4,7 +4,6 @@ import { PageHeader } from 'shared';
 import { Panel } from 'rc-collapse';
 import { SendOutlined } from '@ant-design/icons';
 import staticData from 'static/assets/data.json';
-import { matchScreen, MIN_WIDTH_640 } from '../../utils';
 
 export const FAQ = (props: any) => {
     const title = 'FAQs';

@@ -1,15 +1,21 @@
 import { Badge, Popover, Tag } from 'antd';
-import { IBaseProps, IFeatureProduct } from 'types';
+import { AnimationType, IBaseProps, IFeatureProduct } from 'types';
 import { DollarOutlined } from '@ant-design/icons';
 import styles from 'styles/components/FeatureService.module.css';
 
 interface IGridMenuProps extends IBaseProps {
     data: IFeatureProduct[];
+    animation?: boolean;
 }
 
-export const GridMenu = ({ data, containerClassName }: IGridMenuProps) => {
+export const GridMenu = ({ data, containerClassName, animation = true }: IGridMenuProps) => {
     const element = data.map((item, index: number) => {
-        const ele = <div key={ index + 1 } className="mb-6 lg:ml-10">
+        const fadeDir: AnimationType = (index % 2 === 0) ? 'fade-right' : 'fade-left';
+        const ele = <div
+            key={ index + 1 }
+            data-aos={ animation ? fadeDir : '' }
+            className="mb-6 lg:ml-10"
+        >
             <Badge.Ribbon text={ item.type } color="black" className="hidden sm:block">
                 <div className="flex gap-4">
                     {/* Thumbnail */ }
@@ -50,15 +56,13 @@ export const GridMenu = ({ data, containerClassName }: IGridMenuProps) => {
                 <span className="font-lobster">${ item?.price }</span>
             </div>;
 
+        const scents = `[Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid, Melon Mango, Magnolia Lychee Raspberry, French Lavender, Jasmine, Mother Of Pearl, Vervain].`;
         const popContent = (item: IFeatureProduct) => {
             return <div className="text-sm text-white font-thin">
                 {
-                    item.title === 'Luxury Pedicure'
+                    item.title === 'Luxury Pedicure' || item.title === 'Luxury Manicure'
                         ? <>
-                            <span className="font-bold italic">
-                            [Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid, Melon Mango, Magnolia
-                            Lychee Raspberry, French Lavender, Jasmine, Mother Of Pearl, Vervain].
-                        </span> { item.popContent }
+                            <span className="font-bold italic">{ scents }</span> { item.popContent }
                         </>
                         : item.popContent
                 }

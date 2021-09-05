@@ -1,7 +1,7 @@
 // @ts-ignore
 import Gallery from 'react-grid-gallery';
-import { IPagination } from 'types';
-import { CSSProperties } from 'react';
+import { AnimationType, IPagination } from 'types';
+import { CSSProperties, useEffect } from 'react';
 import { ImageOptions } from 'typings';
 import { matchScreen, MIN_WIDTH_640 } from 'utils';
 
@@ -54,6 +54,15 @@ export const GridGallery = ({ data, pages }: IGridGalleryProps) => {
             margin: 'auto'
         } as CSSProperties
     };
+
+    useEffect(() => {
+        document.querySelectorAll('.ReactGridGallery_tile')
+            .forEach((ele, key) => {
+                    ele.setAttribute('data-aos', 'zoom-in' as AnimationType);
+                    ele.setAttribute('data-aos-delay', `${ (key % 4) * 100 }`);
+                }
+            );
+    });
 
     return <Gallery
         images={ IMAGES }

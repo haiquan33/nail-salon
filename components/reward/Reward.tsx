@@ -31,6 +31,7 @@ export const Reward = (props: any) => {
 
     const listItem = (item: IReward) => <List.Item>
         <List.Item.Meta
+            data-aos="fade-up"
             className=""
             title={ itemTitle()(item.title) }
             description={ itemDesc()(item.description) }
@@ -40,7 +41,7 @@ export const Reward = (props: any) => {
 
     return <section id="reward" className="py-5 sm:py-8 lg:py-10">
         <div className="container">
-            <Divider style={ { borderColor: 'white' } }>
+            <Divider style={ { borderColor: 'black' } }>
                 <PageHeader text={ title } className="mb-4"/>
             </Divider>
 
