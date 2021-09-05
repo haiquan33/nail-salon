@@ -130,7 +130,7 @@
           "type": "Pedicure",
           "description": "Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid...",
           "img": "/images/salon-menu/pedicure/luxury-pedicure.jpeg",
-          "popContent": "Introducing Voesh Collagen Socks that keeps your feet soft for a week! Service includes shaping of your nails, cuticle & callus removal. Experience the refreshing and exfoliating sugar scrub, foot mask, hot towels, paraffin wax, hot stone, collagen sock with lotion massage and polish. Now isn’t that luxury experience indeed?!"
+          "popContent": "Get all of the benefits of hot stone massage, healing herbal neck wrap and collagen sock treatment."
         },
         {
           "title": "Deluxe Pedicure",
@@ -214,7 +214,7 @@
         },
         {
           "title": "Full Set Pink & White",
-          "price": "45",
+          "price": "50",
           "type": "Nail Enhancement",
           "description": "Classic Nail Enhancement Services",
           "img": "/images/salon-menu/nail-enhancement/full-set-pink-white.png"
@@ -246,28 +246,31 @@
           "type": "Manicure",
           "description": "Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid...",
           "img": "/images/salon-menu/manicure/luxury-manicure.png",
-          "popContent": "Service includes shaping of your nails, cuticle & callus removal. Experience the refreshing and exfoliating sugar scrub, hot towels, paraffin wax, hot stone, collagen gloves with lotion massage and polish. Now isn’t that luxury experience indeed?!"
+          "popContent": "Introducing Voesh Collagen Gloves that keep your hand soft for up to a week! This service includes shaping of your nails and cuticle care. Experience the refreshing and exfoliating mud mask, hot towels, paraffin wax, collagen gloves with lotion massage, and the application of polish."
         },
         {
           "title": "Deluxe Manicure",
           "price": "30",
           "type": "Manicure",
           "description": "In this service, we begin by shaping your...",
-          "img": "/images/salon-menu/manicure/deluxe-manicure.png"
+          "img": "/images/salon-menu/manicure/deluxe-manicure.png",
+          "popContent": "In this service, we begin by shaping your nails and grooming and hydrating the cuticles. After a refreshing and exfoliating OPI sugar scrub, the OPI hand mask is put to moisturize your hands. This service also includes a hot towel wrap with paraffin wax, OPI lotion hand massage. The nails are then painted with polish of choice."
         },
         {
           "title": "Spa Manicure",
           "price": "20",
           "type": "Manicure",
           "description": "Relax and unwind all your stress with the...",
-          "img": "/images/salon-menu/manicure/spa-manicure.jpeg"
+          "img": "/images/salon-menu/manicure/spa-manicure.jpeg",
+          "popContent": "Relax and unwind all your stress with this spa manicure. The service includes shaping of your nails and cuticle care. A refreshing and exfoliating honey sugar scrub ensures removal of dead skin. Enjoy the gentle hand massage, as we top off with hot towels & polish."
         },
         {
           "title": "Classic Manicure",
           "price": "15",
           "type": "Manicure",
           "description": "",
-          "img": "/images/salon-menu/manicure/classic-manicure.jpeg"
+          "img": "/images/salon-menu/manicure/classic-manicure.png",
+          "popContent": "The classic manicure service will give you a calming experience. Relax while we shape of your nails, groom your cuticles, give you a lotion massage and finish off with polish."
         }
       ]
     },
