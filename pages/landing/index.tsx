@@ -20,11 +20,7 @@ import Aos from 'aos';
 
 const Landing = (props: any) => {
     useEffect(() => {
-        setTimeout(() =>
-            Aos.init({
-                disable: window.innerWidth < 640,
-            })
-        )
+        setTimeout(() => Aos.init())
     });
 
     return <>
