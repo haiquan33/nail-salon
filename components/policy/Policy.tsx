@@ -7,9 +7,15 @@ export const Policy = (props: any) => {
     const data: string[] = staticData.POLICIES;
 
     const item = data.map((text, index) =>
-        <li key={ index + 1 } className="pb-3">
+        <li
+            key={ index + 1 }
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            className="pb-4 sm:list-disc"
+        >
             { text }
-        </li>);
+        </li>
+    );
 
     return <section id="policy" className="py-5 sm:py-8 lg:py-10">
         <div className="container">
@@ -17,7 +23,7 @@ export const Policy = (props: any) => {
                 <PageHeader text={ title }/>
             </Divider>
 
-            <ul className="text-lg text-white sm:mx-24">
+            <ul className="text-lg text-white mx-3 sm:mx-7">
                 { item }
             </ul>
         </div>

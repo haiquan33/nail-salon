@@ -120,7 +120,7 @@
           "title": "Gel Manicure",
           "price": "30",
           "type": "Pedicure",
-          "description": "Enjoy our Gel Manicure with a relaxing atmosphere...",
+          "description": "Enjoy our Gel Manicure with a relaxing atmosphere at Nails Kute & Spa",
           "img": "/images/salon-menu/pedicure/gel-manicure.jpeg",
           "popContent": ""
         },
@@ -130,21 +130,21 @@
           "type": "Pedicure",
           "description": "Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid...",
           "img": "/images/salon-menu/pedicure/luxury-pedicure.jpeg",
-          "popContent": "Introducing Voesh Collagen Socks that keeps your feet soft for a week! Service includes shaping of your nails, cuticle & callus removal. Experience the refreshing and exfoliating sugar scrub, foot mask, hot towels, paraffin wax, hot stone, collagen sock with lotion massage and polish. Now isn’t that luxury experience indeed?!"
+          "popContent": "Get all of the benefits of hot stone massage, healing herbal neck wrap and collagen sock treatment."
         },
         {
           "title": "Deluxe Pedicure",
           "price": "45",
           "type": "Pedicure",
-          "description": "The Deluxe Pedicure includes the shaping of your...",
+          "description": "The Deluxe Pedicure includes the shaping of your nails and cuticle and callus removal. A refreshing and exfoliating OPI sugar...",
           "img": "/images/salon-menu/pedicure/deluxe-pedicure.jpeg",
-          "popContent": "The deluxe pedicure experience includes shaping of your nails, cuticle & callus removal. A refreshing and exfoliating OPI sugar scrub removes all dead skin. A OPI mud mask and hot towel wrap with paraffin wax, hot stone and OPI lotion foot massage ensures that your feet are relaxed and replenished. Top off the experience with the polish of your choice!"
+          "popContent": "The Deluxe Pedicure includes the shaping of your nails and cuticle and callus removal. A refreshing and exfoliating OPI sugar scrub removes all the dead skin. An OPI mud mask, hot towel wrap with paraffin wax, hot stone, and OPI lotion foot massage ensure that your feet are relaxed and replenished. We top off the experience with the application of polish of your choice!"
         },
         {
           "title": "Spa Pedicure",
           "price": "30",
           "type": "Pedicure",
-          "description": "This service includes the shaping of your nails...",
+          "description": "This service includes shaping of your nails, cuticle & callus removal. It also includes a refreshing and exfoliating...",
           "img": "/images/salon-menu/pedicure/spa-pedicure.png",
           "popContent": "This service includes shaping of your nails, cuticle & callus removal. It also includes a refreshing and exfoliating honey sugar scrub. Along with a foot massage, hot towels and polish, this is all you need for a relaxing time."
         },
@@ -152,7 +152,7 @@
           "title": "Classic Pedicure",
           "price": "25",
           "type": "Pedicure",
-          "description": "Relax while we shape your nails, treat your...",
+          "description": "Relax while we take care of the shaping of your nails, cuticle & callus removal, after which we will give you a...",
           "img": "/images/salon-menu/pedicure/classic-pedicure.jpeg",
           "popContent": "Relax while we take care of the shaping of your nails, cuticle & callus removal, after which we will give you a lotion massage, hot towels and finally put polish, all at an affordable price of $25."
         }
@@ -168,7 +168,8 @@
           "price": "40",
           "type": "Nail Enhancement",
           "description": "Dipping Powder is a nail dipping system that...",
-          "img": "/images/salon-menu/nail-enhancement/dip-color.jpeg"
+          "img": "/images/salon-menu/nail-enhancement/dip-color.jpeg",
+          "popContent": "Dipping Powder is a nail dipping system that uses a brush-on gel base on the natural nail followed by dipping the nail in a powder. The powder comes in a variety of color pigments for a solid color style as well as light pink and bright white for a French manicure style. Like acrylics, dip powder is more durable compared to gel polish. It can withstand color chipping caused by water damage and doesn’t require a UV/LED light to cure. The composition of the dipping powder consists of a variety of vitamins, that helps in making the nails stronger."
         },
         {
           "title": "Fill in Acrylic",
@@ -203,18 +204,20 @@
           "price": "45",
           "type": "Nail Enhancement",
           "description": "Get stronger, lightweight, and naturally long-lasting nails with...",
-          "img": "/images/salon-menu/nail-enhancement/dip-with-tip.jpeg"
+          "img": "/images/salon-menu/nail-enhancement/dip-with-tip.jpeg",
+          "popContent": "Get stronger, lightweight, and naturally long-lasting nails with our easy-to-use dip in powder nails and dip essentials that won’t damage the nail bed. Without harsh chemicals and with added vitamins and calcium to strengthen natural nails, it contains complex bonds that keep it from chipping, discoloring, and lifting. It matches with gel and nail lacquer."
         },
         {
           "title": "Ombré Set",
           "price": "50",
           "type": "Nail Enhancement",
           "description": "From the DCH blending system, ombré nails are...",
-          "img": "/images/salon-menu/nail-enhancement/ombré-set.jpeg"
+          "img": "/images/salon-menu/nail-enhancement/ombré-set.jpeg",
+          "popContent": "From DCH blending system, ombré nails are a type of acrylic in which a color gradient is created. A light color on the top of the nail gradually blends into a darker color toward the tip."
         },
         {
           "title": "Full Set Pink & White",
-          "price": "45",
+          "price": "50",
           "type": "Nail Enhancement",
           "description": "Classic Nail Enhancement Services",
           "img": "/images/salon-menu/nail-enhancement/full-set-pink-white.png"
@@ -246,28 +249,31 @@
           "type": "Manicure",
           "description": "Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid...",
           "img": "/images/salon-menu/manicure/luxury-manicure.png",
-          "popContent": "Service includes shaping of your nails, cuticle & callus removal. Experience the refreshing and exfoliating sugar scrub, foot mask, hot towels, paraffin wax, hot stone, collagen gloves with lotion massage and polish. Now isn’t that luxury experience indeed?!"
+          "popContent": "Introducing Voesh Collagen Gloves that keep your hand soft for up to a week! This service includes shaping of your nails and cuticle care. Experience the refreshing and exfoliating mud mask, hot towels, paraffin wax, collagen gloves with lotion massage, and the application of polish."
         },
         {
           "title": "Deluxe Manicure",
           "price": "30",
           "type": "Manicure",
-          "description": "In this service, we begin by shaping your...",
-          "img": "/images/salon-menu/manicure/deluxe-manicure.png"
+          "description": "In this service, we begin by shaping your nails and grooming and hydrating the cuticles. After a refreshing and exfoliating...",
+          "img": "/images/salon-menu/manicure/deluxe-manicure.png",
+          "popContent": "In this service, we begin by shaping your nails and grooming and hydrating the cuticles. After a refreshing and exfoliating OPI sugar scrub, the OPI hand mask is put to moisturize your hands. This service also includes a hot towel wrap with paraffin wax, OPI lotion hand massage. The nails are then painted with polish of choice."
         },
         {
           "title": "Spa Manicure",
           "price": "20",
           "type": "Manicure",
-          "description": "Relax and unwind all your stress with the...",
-          "img": "/images/salon-menu/manicure/spa-manicure.jpeg"
+          "description": "Relax and unwind all your stress with this spa manicure. The service includes shaping of your nails and cuticle...",
+          "img": "/images/salon-menu/manicure/spa-manicure.jpeg",
+          "popContent": "Relax and unwind all your stress with this spa manicure. The service includes shaping of your nails and cuticle care. A refreshing and exfoliating honey sugar scrub ensures removal of dead skin. Enjoy the gentle hand massage, as we top off with hot towels & polish."
         },
         {
           "title": "Classic Manicure",
           "price": "15",
           "type": "Manicure",
-          "description": "",
-          "img": "/images/salon-menu/manicure/classic-manicure.jpeg"
+          "description": "The classic manicure service will give you a calming experience...",
+          "img": "/images/salon-menu/manicure/classic-manicure.png",
+          "popContent": "The classic manicure service will give you a calming experience. Relax while we shape of your nails, groom your cuticles, give you a lotion massage and finish off with polish."
         }
       ]
     },
@@ -449,23 +455,7 @@
   "BRANDS": [
     {
       "title": "",
-      "img": "/images/brands/tammy-taylor.webp"
-    },
-    {
-      "title": "",
-      "img": "/images/brands/essie.webp"
-    },
-    {
-      "title": "",
       "img": "/images/brands/opi.webp"
-    },
-    {
-      "title": "",
-      "img": "/images/brands/gelish.webp"
-    },
-    {
-      "title": "",
-      "img": "/images/brands/shellac.webp"
     },
     {
       "title": "",
@@ -715,7 +705,7 @@
     },
     {
       "question": "How to book an appointment online?",
-      "answer": "Book your appointment by sending a notice to the salon manager’s email. Please mention your name, phone number, and the service(s) required. We will respond to you and confirm your appointment."
+      "answer": "Book your appointment by clicking on the Booking button. Please mention your name, phone number, and the service(s) required. We will respond to you and confirm your appointment."
     }
   ],
 
@@ -787,15 +777,15 @@
 
   "--------------------------------------POLICY-------------------------------": "COMMENTS",
   "POLICIES": [
-    "- K Nail is equipped with the highest quality of products and services for your salon experience. Our licensed, well trained staff is dedicated to providing custom treatment based on your wants and needs within your scheduled service time, if you are dissatisfied with any of our work, we will be happy to redo the service, the same day.",
-    "- Our nail care tools and pedicure spa tubs are thoroughly sanitized and/or disposed after each use.",
-    "- For your complete relaxation and also out of consideration for other clients, we request you to please mute cell phones. Please also keep all phone calls to a minimum. This is to ensure a pleasant service to all.",
-    "- We encourage you to arrive at least 10 minutes prior to your appointment. This will allow you plenty of time to park your car and check in. If you are a first time client, you may be asked to fill out a profile card.",
-    "- We accept Cash, and all major credit cards included Visa and Mastercard. Minimum transaction for credit card is $10.",
-    "- Gift cards are available for sale. It cannot be exchanged or returned.",
-    "- Customers will be solely responsible for any personal items that they bring.",
-    "- We reserve the right to not offer our services to people who may be considered rude or come with a bad attitude.",
-    "- We do not give refunds or allow exchanges for any services performed or gift voucher. If you are unsatisfied with our service, please speak with the manager immediately and we will do our best to remedy the situation.",
-    "- Our complimentary beverages are soda, water or wine. Alcohol will only be served for age of 21 or older. "
+    "K Nail is equipped with the highest quality of products and services for your salon experience. Our licensed, well trained staff is dedicated to providing custom treatment based on your wants and needs within your scheduled service time, if you are dissatisfied with any of our work, we will be happy to redo the service, the same day.",
+    "Our nail care tools and pedicure spa tubs are thoroughly sanitized and/or disposed after each use.",
+    "For your complete relaxation and also out of consideration for other clients, we request you to please mute cell phones. Please also keep all phone calls to a minimum. This is to ensure a pleasant service to all.",
+    "We encourage you to arrive at least 10 minutes prior to your appointment. This will allow you plenty of time to park your car and check in. If you are a first time client, you may be asked to fill out a profile card.",
+    "We accept Cash, and all major credit cards included Visa and Mastercard. Minimum transaction for credit card is $10.",
+    "Gift cards are available for sale. It cannot be exchanged or returned.",
+    "Customers will be solely responsible for any personal items that they bring.",
+    "We reserve the right to not offer our services to people who may be considered rude or come with a bad attitude.",
+    "We do not give refunds or allow exchanges for any services performed or gift voucher. If you are unsatisfied with our service, please speak with the manager immediately and we will do our best to remedy the situation.",
+    "Our complimentary beverages are soda, water or wine. Alcohol will only be served for age of 21 or older. "
   ]
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Layout, Menu } from 'antd';
 import styles from 'styles/components/NavBar.module.css';
 import staticData from 'static/assets/data.json';
@@ -14,7 +15,7 @@ export const NavBar = (props: any) => {
         const href = `#${ item.toLowerCase().replace(' ', '_') }`;
 
         return <Menu.Item key={ key }>
-            <a href={ href } className={ styles['text-red'] }>
+            <a href={ href } className={ `font-lobster text-base ${ styles['text-red'] }` }>
                 { item }
             </a>
         </Menu.Item>;
@@ -42,11 +43,15 @@ export const NavBar = (props: any) => {
             <AntdHeader className="flex justify-around">
                 {/*App logo*/}
                 <div className={ `${ styles.logo }` }>
-                    <a href="https://vnailweb.com/nail-salon-near-me-nails-kute-spa-fleming-island-fl-32003/">
-                        <img
+                    <a href="https://vnailweb.com/nail-salon-near-me-nails-kute-spa-fleming-island-fl-32003/"
+                       target="_blank"
+                       rel="noreferrer"
+                    >
+                        <Image
                             src="/images/nails-kute-logo.png"
                             alt="App logo"
-                            className={ styles.logoImg }
+                            width={ 45 }
+                            height={ 45 }
                         />
                     </a>
                 </div>

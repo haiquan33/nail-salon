@@ -20,15 +20,19 @@ export const GiftCard = (props: any) => {
                     <a className={ `p-3.5 text-black bg-red-600 ${ styles['buy-gift-btn'] }` }
                        href={ GIFT_CARD }
                        target="_blank"
-                       rel="nofollow">
+                       rel="noreferrer">
                         Buy now
                     </a>
                 </div>
 
                 <div className="ant-col-sm mb-6 sm:mb-0">
-                    <a className="" href="https://vnailweb.com/checkout/">
+                    <a className=""
+                       href="https://vnailweb.com/checkout/"
+                       target="_blank"
+                       rel="noreferrer"
+                    >
                         <img
-                            src="https://vnailweb.com/wp-content/uploads/2020/11/Banner-Gift-NAILS-KUTE-SPA-1.jpg"
+                            src="/images/gift-card.jpeg"
                             alt="..."
                         />
                     </a>

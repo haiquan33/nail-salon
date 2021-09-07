@@ -77,7 +77,7 @@ export const Slick = (
     };
 
     const sliderItem = items.map((item, index) => {
-        return <div key={ index + 1 } className="px-2 mb-3 sm:px-4">
+        return <div data-aos="flip-left" data-aos-duration="600" key={ index + 1 } className="px-2 mb-3 sm:px-4">
             <div
                 className={ `mx-auto ${ containerClassName }` }
                 onClick={ () => itemClick(item) }>
