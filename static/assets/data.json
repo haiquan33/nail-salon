@@ -117,20 +117,12 @@
       "img": "/images/salon-menu/pedicure.webp",
       "submenu": [
         {
-          "title": "Gel Manicure",
-          "price": "30",
-          "type": "Pedicure",
-          "description": "Enjoy our Gel Manicure with a relaxing atmosphere at Nails Kute & Spa",
-          "img": "/images/salon-menu/pedicure/gel-manicure.jpeg",
-          "popContent": ""
-        },
-        {
           "title": "Luxury Pedicure",
           "price": "65",
           "type": "Pedicure",
           "description": "Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid...",
           "img": "/images/salon-menu/pedicure/luxury-pedicure.jpeg",
-          "popContent": "Get all of the benefits of hot stone massage, healing herbal neck wrap and collagen sock treatment."
+          "popContent": "Introducing Collagen Socks that keep your feet soft for up to week and natural herbal wrap contour your neck and shoulder to help relieve stress, aches, cramp, muscle pain. This service includes shaping of your nails and cuticle , callus removal. Experience the refreshing and exfoliating sugar scrub, foot mask, hot towels hot towels , paraffin wax, hot stone, collagen sock with lotion massage, and polish. Now isn’t that luxury experience indeed?!"
         },
         {
           "title": "Deluxe Pedicure",
@@ -249,7 +241,7 @@
           "type": "Manicure",
           "description": "Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid...",
           "img": "/images/salon-menu/manicure/luxury-manicure.png",
-          "popContent": "Introducing Voesh Collagen Gloves that keep your hand soft for up to a week! This service includes shaping of your nails and cuticle care. Experience the refreshing and exfoliating mud mask, hot towels, paraffin wax, collagen gloves with lotion massage, and the application of polish."
+          "popContent": "Introducing Collagen Gloves that keep your hand soft for up to week and natural herbal wrap contour your neck and shoulder to help relieve stress, aches, cramp, muscle pain. This service includes shaping of your nails and cuticle care. Experience the refreshing and exfoliating mud mask, hot towels , paraffin wax, collagen gloves with lotion massage, and the application of polish."
         },
         {
           "title": "Deluxe Manicure",
@@ -403,10 +395,17 @@
         },
         {
           "title": "Gel French",
-          "price": "20",
+          "price": "25",
           "type": "Gel Polish",
           "description": "",
-          "img": "/images/salon-menu/gel-polish/gel-french.jpeg"
+          "img": "/images/salon-menu/gel-polish/gel-french-1.jpeg"
+        },
+        {
+          "title": "V GEL French",
+          "price": "25",
+          "type": "Gel Polish",
+          "description": "",
+          "img": "/images/salon-menu/gel-polish/v-gel-french.jpeg"
         },
         {
           "title": "Gel Color",

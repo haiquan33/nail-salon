@@ -57,7 +57,7 @@ export const GridMenu = ({ data, containerClassName, animation = true }: IGridMe
             </div>;
 
         const popContent = (item: IFeatureProduct) => {
-            const scents = `[Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid, Melon Mango, Magnolia Lychee Raspberry, French Lavender, Jasmine, Mother Of Pearl, Vervain].`;
+            const scents = `Scent option from 2 Organic Pedi-in-a-box luxury 9-in-1 Kit: [Scent options: Japanese Cherry Blossom, Hawaii Citrus, Peony Orchid, Melon Mango, Magnolia Lychee Raspberry, French Lavender, Jasmine, Mother Of Pearl, Vervain].`;
 
             return <div className="text-sm text-white font-thin">
                 {
@@ -73,12 +73,12 @@ export const GridMenu = ({ data, containerClassName, animation = true }: IGridMe
         return item?.popContent
             ? <Popover
                 key={ index + 1 }
+                trigger="click"
                 placement="bottom"
-                overlayInnerStyle={ { background: '#383838', borderRadius: '10px' } }
-                overlayStyle={ { maxWidth: '450px' } }
                 title={ () => popTitle(item) }
                 content={ () => popContent(item) }
-                trigger="click"
+                overlayStyle={ { maxWidth: '450px' } }
+                overlayInnerStyle={ { background: '#383838', borderRadius: '10px' } }
             >
                 { ele }
             </Popover>
