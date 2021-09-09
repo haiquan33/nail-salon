@@ -41,8 +41,8 @@ export const Brand = (props: any) => {
     };
     const slickSettings: ISlickProps = {
         data, settings,
-        elementClassName: 'mx-auto object-contain brand-logo',
-        containerClassName: 'border brand-logo'
+        elementClassName: 'brand-logo mx-auto object-contain bg-white',
+        containerClassName: 'brand-logo'
     };
 
     return <section id="brands" className="py-5 sm:py-8 lg:py-10 text-white bg-black">
