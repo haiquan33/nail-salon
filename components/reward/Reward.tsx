@@ -31,8 +31,9 @@ export const Reward = (props: any) => {
 
     const listItem = (item: IReward) => <List.Item>
         <List.Item.Meta
-            data-aos="fade-up"
             className=""
+            data-aos="fade-up"
+            data-aos-once={ true }
             title={ itemTitle()(item.title) }
             description={ itemDesc()(item.description) }
         >

@@ -1,4 +1,4 @@
-import { GIFT_CARD } from 'utils';
+import { GIFT_CARD_LINK } from 'utils';
 import styles from 'styles/components/GiftCard.module.css';
 
 export const GiftCard = (props: any) => {
@@ -18,7 +18,7 @@ export const GiftCard = (props: any) => {
                     </div>
 
                     <a className={ `p-3.5 text-black bg-red-600 ${ styles['buy-gift-btn'] }` }
-                       href={ GIFT_CARD }
+                       href={ GIFT_CARD_LINK }
                        target="_blank"
                        rel="noreferrer">
                         Buy now
@@ -26,14 +26,14 @@ export const GiftCard = (props: any) => {
                 </div>
 
                 <div className="ant-col-sm mb-6 sm:mb-0">
-                    <a className=""
-                       href="https://vnailweb.com/checkout/"
+                    <a href={ GIFT_CARD_LINK }
                        target="_blank"
                        rel="noreferrer"
                     >
                         <img
                             src="/images/gift-card.jpeg"
-                            alt="..."
+                            alt="Special Gift Card"
+                            className="border-4"
                         />
                     </a>
                 </div>

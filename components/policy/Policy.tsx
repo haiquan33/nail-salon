@@ -9,9 +9,10 @@ export const Policy = (props: any) => {
     const item = data.map((text, index) =>
         <li
             key={ index + 1 }
+            className="pb-4 sm:list-disc"
             data-aos="zoom-in"
             data-aos-delay="300"
-            className="pb-4 sm:list-disc"
+            data-aos-once={ true }
         >
             { text }
         </li>

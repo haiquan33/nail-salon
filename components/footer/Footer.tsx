@@ -37,29 +37,49 @@ export const Footer = (props: any) => {
                 <img
                     width="120"
                     src="/images/nails-kute-logo.png"
-                    alt="..."
+                    alt="Nails Kute Logo"
                     className="mx-auto logo-footer mb-6"
                 />
 
                 {/*Social Icons*/ }
                 <div id="social-links" className="flex justify-center gap-14 mb-10">
-                    <a data-aos="fade-right" data-aos-delay="300" href={ FB_LINK } target="_blank" rel="noreferrer">
+                    <a href={ FB_LINK }
+                       target="_blank"
+                       rel="noreferrer"
+                       data-aos="fade-right"
+                       data-aos-delay="300"
+                       data-aos-once={ true }
+                    >
                         <FacebookFilled className="text-4xl text-red-600"/>
                     </a>
 
-                    <a data-aos="fade-right" data-aos-delay="200" href={ INSTAGRAM_LINK } target="_blank"
-                       rel="noreferrer">
+                    <a href={ INSTAGRAM_LINK }
+                       target="_blank"
+                       rel="noreferrer"
+                       data-aos="fade-right"
+                       data-aos-delay="200"
+                       data-aos-once={ true }
+                    >
                         <InstagramFilled className="text-4xl text-red-600"/>
                     </a>
 
-                    <a data-aos="fade-right" data-aos-delay="100" rel="noreferrer" target="_blank"
-                       href={ YELP_LINK }
+                    <a href={ YELP_LINK }
+                       target="_blank"
+                       rel="noreferrer"
                        className="mt-1"
+                       data-aos="fade-right"
+                       data-aos-delay="100"
+                       data-aos-once={ true }
                     >
                         <Image width={ 36 } height={ 36 } src="/icons/yelp-logo.svg" alt="Yelp logo"/>
                     </a>
 
-                    <a data-aos="fade-right" href={ GOOGLE_LINK } target="_blank" rel="noreferrer">
+                    <a href={ GOOGLE_LINK }
+                       target="_blank"
+                       rel="noreferrer"
+                       data-aos="fade-right"
+                       data-aos-once={ true }
+                    >
                         <GooglePlusSquareFilled className="text-4xl text-red-600"/>
                     </a>
                 </div>
@@ -67,7 +87,11 @@ export const Footer = (props: any) => {
                 {/*Contact Info*/ }
                 <div className="sm:grid grid-cols-3 gap-8 text-red-600">
                     {/*Business Info*/ }
-                    <div data-aos="fade-right" className="ant-col-md">
+                    <div
+                        className="ant-col-md"
+                        data-aos="fade-right"
+                        data-aos-once={ true }
+                    >
                         <h5 className="flex items-end gap-3 text-lg text-red-600 font-medium mb-5">
                             <ShopOutlined className="pb-1"/>
                             <span>Business Info</span>
@@ -93,7 +117,11 @@ export const Footer = (props: any) => {
                     </div>
 
                     {/*Business Hours*/ }
-                    <div data-aos="fade-up" className="ant-col-md sm:-ml-10 sm:mr-10 sm:mx-5">
+                    <div
+                        className="ant-col-md sm:-ml-10 sm:mr-10 sm:mx-5"
+                        data-aos="fade-up"
+                        data-aos-once={ true }
+                    >
                         <h5 className="flex items-end gap-3 text-lg text-red-600 font-medium mb-5">
                             <ClockCircleOutlined className="pb-1"/>
                             <span>Business Hours</span>
@@ -107,7 +135,11 @@ export const Footer = (props: any) => {
                     </div>
 
                     {/*Holidays*/ }
-                    <div data-aos="fade-left" className="ant-col-md">
+                    <div
+                        className="ant-col-md"
+                        data-aos="fade-left"
+                        data-aos-once={ true }
+                    >
                         <h5 className="flex items-end gap-3 text-lg text-red-600 font-medium mb-5">
                             <LockOutlined className="pb-1"/>
                             <span>Closing Holidays</span>

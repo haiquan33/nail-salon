@@ -13,8 +13,9 @@ export const GridMenu = ({ data, containerClassName, animation = true }: IGridMe
         const fadeDir: AnimationType = (index % 2 === 0) ? 'fade-right' : 'fade-left';
         const ele = <div
             key={ index + 1 }
-            data-aos={ animation ? fadeDir : '' }
             className="mb-6 lg:ml-10"
+            data-aos={ animation ? fadeDir : '' }
+            data-aos-once={ true }
         >
             <Badge.Ribbon text={ item.type } color="black" className="hidden sm:block">
                 <div className="flex gap-4">
