@@ -45,13 +45,15 @@ export const GridGallery = ({ data, pages }: IGridGalleryProps) => {
             return {
                 width: '250px',
                 height: '250px',
+                borderWidth: '4px',
             } as CSSProperties;
         }
 
         return {
             width: '110px',
             height: '110px',
-            margin: 'auto'
+            margin: 'auto',
+            borderWidth: '2px',
         } as CSSProperties
     };
 
@@ -60,6 +62,7 @@ export const GridGallery = ({ data, pages }: IGridGalleryProps) => {
             .forEach((ele, key) => {
                     ele.setAttribute('data-aos', 'zoom-in' as AnimationType);
                     ele.setAttribute('data-aos-delay', `${ (key % 4) * 100 }`);
+                    ele.setAttribute('data-aos-once', 'true');
                 }
             );
     });

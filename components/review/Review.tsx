@@ -17,9 +17,10 @@ export const Review = (props: any) => {
 
             return <Comment
                 key={ randomNumber(1, 9999999999) }
+                className="sm:m-10 border-b border-black"
                 data-aos={ fadeDir }
                 data-aos-offset={ fadeOffset }
-                className="sm:m-10 border-b border-black"
+                data-aos-once={ true }
                 avatar={ <Avatar
                     src={ comment.avatar }
                     alt={ comment.name }
